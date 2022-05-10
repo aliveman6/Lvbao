@@ -1,0 +1,111 @@
+
+  .tabs_root{
+    width: 90%;
+    height: 120rpx;
+    display: flex;
+    margin: 50rpx 0px 0px 36rpx;
+    border-radius: 20rpx;
+    box-shadow: 0px 5rpx 17rpx #e0e0e0;
+    background-color: #fff;
+  }
+  .tabs_item{
+    width: 30%;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 20rpx 0px 20rpx 58rpx;
+    margin:20rpx 18rpx 20rpx 86rpx;
+    font-size: 30rpx;
+    font-family: KaiTi;
+    line-height: 20rpx;
+  }
+  .select_tab{
+    border-top: 6rpx solid #2BC78F;
+    border-bottom:6rpx solid #2BC78F;
+    color: #2BC78F;
+    border-bottom-right-radius: 20rpx;
+    border-bottom-left-radius: 20rpx;
+    border-top-right-radius: 20rpx;
+    border-top-left-radius: 20rpx;
+  }
+  .body{
+    margin-bottom: 300rpx;
+  }
+  .order_item{
+    width: 90%;
+    margin: 20rpx 0px 0px 36rpx;
+    border-radius: 20rpx;
+    box-shadow: 0px 5rpx 17rpx #e0e0e0;
+    background-color: #fff;
+    padding-top: 10rpx;
+    padding-bottom: 20rpx;
+  }
+  .message{
+    font-size: 28rpx;
+    line-height: 22rpx;
+    margin: 30rpx 0px 32rpx 56rpx;
+    font-family: KaiTi;
+  }
+  .finish::after{
+    border: none;
+  }
+  .finish{
+    display: inline-block;
+    width: 176rpx;
+    height: 60rpx;
+    font-size: 28rpx;
+    color: #fff;
+    background-color: #2BC78F;
+    font-family: KaiTi;
+    border-radius: 40rpx;
+    line-height: 60rpx;
+    margin-left: 20rpx;
+  }
+
+  .zan-dialog__mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0);   
+    display: none;
+   }
+   
+   .zan-dialog__container {
+    position: fixed;
+    bottom: 400rpx;
+    width: 650rpx;
+    height: 350rpx;
+    margin-left: 50rpx;
+    background: #f3f3f3;
+    transform: translateY(300%);
+    transition: all 0.4s ease;
+    z-index: 12;
+    border-radius: 20rpx;
+    box-shadow:  3px 3px 10rpx rgba(0, 0, 0, 0.2);
+   }
+   
+   .zan-dialog--show .zan-dialog__container {
+    transform: translateY(0);
+    padding: 30px;
+   }
+   
+   .zan-dialog--show .zan-dialog__mask {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+   }
+
+   .Pop_text{
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+   }
+
+   .welcome_text{
+     font-size: 20px;
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+   }

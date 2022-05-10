@@ -1,0 +1,65 @@
+<!-- 投放指南 -->
+<view class="head">
+    <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/zn/zn1.png" mode="widthFix" class="tb"></image>
+    <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/zn/gif2.gif" mode="widthFix"class="gif"></image>
+    <view class="head_text">投放指南</view>
+</view>
+
+<view class="main">
+    <!-- 有害垃圾 -->
+    <view class="f">
+        <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/zn/tb2.png" mode="widthFix" class="tb"></image>
+        <view class="main_text_2">有害垃圾</view>
+        <text>1.废充电电池和电路板：含汞、镍氢、镍镉的充电电池（如手机电池）和纽扣电池以及废电路板；</text>
+        <text>2.废灯管：日光灯管、荧光灯管、节能灯、LED灯；</text>
+        <text>3.废涂料溶剂：油漆和溶剂、矿物油、杀虫剂和消毒剂及其包装物，胶片、相纸、硒鼓墨盒等;</text>
+        <text>4.废药品类：药品及其包装物、水银温度计、水银血压计。</text>
+    </view>
+    <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/zn/yhlj.jpeg"></image>
+
+
+    <!-- 厨余垃圾 -->
+    <view class="f">
+        <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/zn/tb2.png" mode="widthFix" class="tb"></image>
+        <view class="main_text_2">厨余垃圾</view>
+        <text>1.蔬菜瓜果：蔬菜、瓜果及其果肉、果皮、果壳等；</text>
+        <text>2.米面肉蛋类：米饭、面条豆制品、鸡鸭鱼肉、动物内脏、水产及其加工品、肉蛋及其加工品等；</text>
+        <text>3.食品调料：各类饼干、糖果、巧克力、罐头等食品，糖、味精等调料;</text>
+        <text>4.茶叶盆栽：茶叶、中药、咖啡渣，盆栽植物残枝落叶，宠物饲料等。</text>
+    </view>
+    <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/zn/cylj.jpeg"></image>
+
+
+    <!-- 可回收物 -->
+    <view class="f">
+        <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/zn/tb2.png" mode="widthFix" class="tb"></image>
+        <view class="main_text_2">可回收物</view>
+        <text>1.废纸：报纸、书刊杂志、复印纸等纸张，纸板纸箱，饮料及牛奶等纸包装（利乐包盒）；</text>
+        <text>2.废塑料：塑料袋、塑料瓶罐盒、塑料盆桶、泡沫塑料、塑料玩具及用品、橡胶及其制品；</text>
+        <text>3.废玻璃：玻璃瓶、玻璃杯、玻璃桌面、窗玻璃等；</text>
+        <text>4.废金属：易拉罐、罐头盒、奶粉桶、玩具、餐具饮具、剪刀、铁钉、衣架、金属办公用品等；</text>
+        <text>5.废织物：衣物、床单、棉被、鞋、窗帘、毛绒玩具等；</text>
+        <text>6.废电器电子产品：电冰箱、空调、吸油烟机、洗衣机、电热水器、燃气热水器、打印机、复印机、传真机、电视机、监视器、微型计算机（台式计算机、平板电脑、掌上电脑）、移动通信手持机、电话单机等；</text>
+        <text>7.废大件可回收物：床及床垫、沙发、橱柜、桌椅、门窗等。</text>
+    </view>
+    <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/zn/khslj.jpeg"></image>
+
+
+    <!-- 其他垃圾 -->
+    <view class="f">
+        <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/zn/tb2.png" mode="widthFix" class="tb"></image>
+        <view class="main_text_2">其他垃圾</view>
+        <text>1.受污染与不宜再生利用的纸张：卫生纸、面巾纸、湿巾纸、其他受污染的纸类物质；</text>
+        <text>2.不宜再生利用的生活用品：普通一次性电池、受污染的一次性用具、保鲜袋（膜）、妇女卫生用品、海绵、尿不湿、受污染织物等其他难回收利用物品；</text>
+        <text>3.灰土陶瓷：烟蒂、尘土、陶瓷及其他难以归类和无利用价值物品。</text>
+    </view>
+    <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/zn/qtlj.jpeg"></image> 
+
+
+    <!-- 结尾处图片 -->
+    <image class="emd" src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/zn/emd.jpeg" mode="widthFix"></image>
+    <image class='gif' src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/zn/gif1.gif" mode="widthFix"></image>
+    <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/zn/thead.png" mode="widthFix"class="gif"></image>
+    
+</view>
+<!-- end -->

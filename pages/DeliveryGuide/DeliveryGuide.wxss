@@ -1,0 +1,89 @@
+
+.head>.tb,
+.main>.f>.tb {
+  width: 60rpx;
+  display: inline-block;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+
+.head{
+  width: 90%;
+  margin: 0rpx auto;
+}
+
+.head text{
+  position: absolute;
+  top: 7%;
+  left: 42%;
+  font-size: 40rpx;
+  font-family: KaiTi;
+  font-weight: bold;
+}
+
+.main .main_text{
+  position: absolute;
+  top: 40%;
+  left: 42%;
+  font-size: 40rpx;
+  font-family: KaiTi;
+  font-weight: bold;
+}
+
+.main .main_text_2{
+    display: inline-block;
+    position: absolute;
+    margin-top: 35rpx;
+    margin-left: 14rpx;
+    font-size: 40rpx;
+    font-family: KaiTi;
+    font-weight: bold;
+}
+
+.head .head_text{
+  display: inline-block;
+  position: absolute;
+  top: 2.5%;
+  left: 41%;
+  font-size: 40rpx;
+  font-family: KaiTi;
+  font-weight: bold;
+}
+
+.main image{
+  display: block;
+  margin: 0 auto;
+  border-radius: 20rpx;
+  margin: 20rpx auto;
+}
+
+.main .f {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main .f text {
+  display: block;
+  padding: 1rem;
+  border: 4rpx solid rgb(160, 238, 140);
+  border-radius: 20rpx;
+  background-color: #fff;
+  margin: 25rpx;
+  font-family: KaiTi;
+}
+
+.main .f .active{
+  display: inline;
+  border:0px
+}
+
+.emd{
+  width: 2rem;
+  display: block;
+}
+
+.gif{
+  width: 90%;
+  display: block;
+  margin: 20rpx auto;
+}

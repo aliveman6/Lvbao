@@ -1,0 +1,7 @@
+<view class="main">
+    <view class="head">表现形式</view>
+    <view class="body">玻璃瓶和碎破片</view>
+    <view class="img"><image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/bl.webp" mode="widthFix"></image></view>
+    <view class="head">回收的价值</view>
+    <view class="body">1t废玻璃回炉可生产2万个500g装的酒瓶,比利用新原料生产节约成本20%,同时,可以节约石英砂720kg,少用纯碱250kg,节约长石粉60kg,节约煤炭101,节电400kw- h</view>
+</view>

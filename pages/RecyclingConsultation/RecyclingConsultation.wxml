@@ -1,0 +1,100 @@
+<view class="page">
+
+<view class="top_title">
+回收咨询
+</view>
+
+<!--分类 -->
+
+<view class="mian">
+
+<view class="li" data-index="0" bindtap='changeToggle'>
+<view class="left">1、如何修改订单？</view>
+<view class="right"> 
+  </view>
+ </view>
+ <view hidden="{{!selectedFlag[0]}}">
+ <block wx:for="{{list01}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+  <view class="bg-gray">
+  <view>尊敬的客户，您可在首页页面直接预约上门回收的相关信息，届时会有平台回收员接到用户下达的订单，接下订单之后根据用户填写的信息地址直接上门回收。</view>
+  </view>
+ </block>
+ </view>
+
+
+ <view class="li" data-index="1" bindtap='changeToggle'>
+ <view class="left">2、如何实施上门回收？</view>
+ <view class="right">
+ </view>
+ </view>
+ <view hidden="{{!selectedFlag[1]}}">
+ <block wx:for="{{list02}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+  <view class="bg-gray">
+  <view>尊敬的用户，您可在首页页面直接预约上门回收的相关信息，届时会有平台回收员接到用户下达的订单，接下订单之后根据用户填写的信息地址直接上门回收。</view>
+
+  </view>
+ </block>
+ </view>
+
+ <view class="li" data-index="2" bindtap='changeToggle'>
+ <view class="left">3、如何处理垃圾资源？</view>
+ <view class="right">
+ </view>
+ </view>
+ <view hidden="{{!selectedFlag[2]}}">
+ <block wx:for="{{list03}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+  <view class="bg-gray">
+  <view>（1）尊敬的用户，一部分可回收物，由再生资源回收企业通过预约上门，固定点位等方式进行回收，运输至各再生资源由专业的清运人员运送至分拣中心作二次分拣，按材质属性分类打包，运往各类再生资源处理设施进行再利用。
+（2）另外一部分可回收物，例如布料旧衣回收员会与当地的志愿者协会等机构捐出，帮助更多山区的孩子。
+</view>
+
+  </view>
+ </block>
+ </view>
+
+
+ <view class="li" data-index="3" bindtap='changeToggle'>
+ <view class="left">4、下单后多长时间上门？</view>
+ <view class="right">
+ </view>
+ </view>
+ <view hidden="{{!selectedFlag[3]}}">
+ <block wx:for="{{list04}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+  <view class="bg-gray">
+  <view>尊敬的用户，下单成功后回收员会根据订单情况和您预约上门服务时间准时上门服务。</view>
+  </view>
+ </block>
+ </view>
+
+ <view class="li" data-index="4" bindtap='changeToggle'>
+ <view class="left">5、回收流程是怎样的?</view>
+ <view class="right">
+ </view>
+ </view>
+ <view hidden="{{!selectedFlag[4]}}">
+ <block wx:for="{{list05}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+  <view class="bg-gray">
+  <view>尊敬的用户，您可通过首页直接预约→提交订单→回收员接单→回收员上门服务→完成订单</view>
+  </view>
+ </block>
+ </view>
+
+
+ <view class="li" data-index="5" bindtap='changeToggle'>
+ <view class="left">6、积分的用途？?</view>
+ <view class="right">
+ </view>
+ </view>
+ <view hidden="{{!selectedFlag[5]}}">
+ <block wx:for="{{list06}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+  <view class="bg-gray">
+  <view>尊敬的用户，您的积分可直接通过您登陆的微信号兑换成微信余额。</view>
+  </view>
+ </block>
+ </view>
+
+
+</view>
+
+
+</view>

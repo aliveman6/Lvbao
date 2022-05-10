@@ -1,0 +1,40 @@
+.Logo{
+    position: relative;
+    top: 27%;
+    left: 40%;
+}
+
+.main{
+    width: 350px;
+    height: 300px;
+    padding: 40px 40px;
+    margin-top: 100px;
+    margin-left: 3%;
+    background-color: #fff;
+    border-radius: 20rpx;
+    box-shadow: 0px 5rpx 17rpx rgba(0, 0, 0, 0.1);
+}
+.input{
+    margin-top:10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 40rpx;
+    box-shadow: 0px 5rpx 17rpx rgba(0, 0, 0, 0.1);
+    padding-left: 30rpx;
+}
+.input_1{
+    margin-top: 40px;
+}
+.input_2{
+    margin-top: 10px;
+}
+.btn{
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 40rpx;
+    color: #fff;
+    background: -webkit-linear-gradient(bottom,#2dcc82c9,#31C581,#31c580b9);
+    box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
+}
+.btn::after{
+    border: none;
+}

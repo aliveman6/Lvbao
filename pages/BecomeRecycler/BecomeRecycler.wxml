@@ -1,0 +1,65 @@
+<!-- 头部文字 -->
+<view class="top_title">请认真填写真实、有效的个人信息！</view>
+<!-- END -->
+
+<!--这里用form，name=“nameName1”可以作为form的属性进行 
+（e.detail.value.nameName1）调用,
+form自带有提交和重置按钮，会自动获取表单中所有控件值的改变-->
+<form class="page__bd" bindsubmit="formSubmit" bindreset="formReset">
+
+<!-- 表单主体 -->
+<view class="body">
+
+<!-- 真实姓名 -->
+<view class="section">
+<view class="section__title">真实姓名</view>
+<input name="name" placeholder="请在这里输入" class="form" placeholder-class="placeholder" />
+</view>
+
+
+<!-- 联系电话 -->
+<view class="section">
+<view class="section__title">联系电话</view>
+<input name="phone" type="number" placeholder="请在这里输入" class="form" placeholder-class="placeholder" />
+</view>
+
+<!-- 身份证号码 -->
+<view class="section">
+<view class="section__title">身份证号码</view>
+<input name="idcard" type="number" placeholder="请在这里输入" maxlength="18" class="form" placeholder-class="placeholder" />
+</view>
+
+<!-- 回收类别 -->
+<view class="section section_gap">
+<view class="section__title">您希望的回收类别</view>
+<checkbox-group name="radio" class="form_radio">
+<label><checkbox value="塑料回收"/>塑料回收</label>
+<label><checkbox value="家电回收"/>家电回收</label>
+<label><checkbox value="金属回收"/>金属回收</label>
+<label><checkbox value="纸皮回收"/>纸皮回收</label>
+<label><checkbox value="数码回收"/>数码回收</label>
+<label><checkbox value="旧衣回收"/>旧衣回收</label>
+</checkbox-group>
+</view>
+
+<!-- 回收员自述 -->
+<view class="section">
+<view class="section__title">用几句话描述一下自己</view>
+<textarea name="remarks" cols="10" rows="20" confirm-type="done" adjust-position="true" ></textarea>
+</view>
+
+<!-- 提交按钮和重置按钮 -->
+<view class="btn-area">
+<button form-type="submit" class="btn_style_1">提交</button>
+<button form-type="reset" class="btn_style_2">重置</button>
+</view>
+
+
+</view>
+</form>
+<!-- form END -->
+
+ 
+
+ 
+

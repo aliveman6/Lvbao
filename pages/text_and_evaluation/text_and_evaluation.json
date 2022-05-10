@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "textareaFixedBottom": "/components/textarea-fixed-bottom/index"
+  },
+  "navigationBarTitleText": "绿宝"
+}

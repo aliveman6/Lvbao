@@ -1,0 +1,21 @@
+.main{
+    float: left;
+    margin-top: 60rpx;
+    margin-left: 38%;
+}
+
+.body{
+    width: 690rpx;
+    height: 800rpx;
+    margin-top: 120rpx;
+    margin-left: 4%;
+    margin-bottom: 48rpx;
+    padding: 0px 60rpx;
+    border-radius: 30rpx;
+    background-color: #fff;
+    box-shadow: 6rpx 6rpx 10rpx rgba(0, 0, 0, 0.2);
+}
+
+.AboutUs_text{
+    padding-top: 200rpx;
+}

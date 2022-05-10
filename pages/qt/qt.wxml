@@ -1,0 +1,9 @@
+<view class="main">
+<view class="head">表现形式</view>
+<view class="body">落叶杂草和菜根呆皮、鸡肠鱼肚、蛋壳鳞毛等厨余垃圾</view>
+<view class="img">
+    <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/qt.webp" mode="widthFix"></image>
+</view>
+<view class="head">回收的价值</view>
+<view class="body">每天从家里扔出来的垃圾中有40%以上是果皮、蛋壳、菜叶、剩饭等厨房垃圾,这些垃圾可以用堆肥发酵的方法处理为有机肥料或饲料。</view>
+</view>

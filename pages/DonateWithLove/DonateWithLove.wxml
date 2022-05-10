@@ -1,0 +1,47 @@
+
+<!-- 顶部logo -->
+<view class="main">
+<Logo></Logo>
+</view>
+<!-- END -->
+
+
+<!-- 搜索区域 -->
+<view class="search_root">
+    <input bindconfirm="goSearch" confirm-type="search" bindinput="getSearch" class="search_input" placeholder="爱心捐赠" placeholder-class="placeholder" />
+    <van-icon name="search" bindtap="goSearch" class="search_icon" size="25" />
+</view>
+<!-- end -->
+
+<!-- 项目展示 -->
+<view class="title">最新项目</view>
+<scroll-view class="scroll-view_H" scroll-x="true"  style="width: 100%">
+<view class="ProjectList" scroll-x="true">
+<view wx:for="{{ProjectList}}"  bindtap="goDetail" wx:key="index" data-id="{{item._id}}">
+<view class="item">
+<image class="ProjectImg" src="{{item.ProjectImage}}" mode="aspectFill"></image>
+<view class="ProjectTitle">{{item.ProjectTitle}}</view>
+<view class="ProjectDescription">{{item.ProjectDescription}}</view>
+</view>
+</view>
+</view>
+</scroll-view>
+
+<view class="title">已完成</view>
+<scroll-view class="scroll-view_H" scroll-x="true"  style="width: 100%">
+<view class="ProjectList" scroll-x="true">
+<view wx:for="{{ProjectList2}}"  bindtap="goDetail" wx:key="index"  data-id="{{item._id}}">
+<view class="item">
+<image class="ProjectImg" src="{{item.ProjectImage}}" mode="aspectFill"></image>
+<view class="ProjectTitle">{{item.ProjectTitle}}</view>
+<view class="ProjectDescription">{{item.ProjectDescription}}</view>
+</view>
+</view>
+</view>
+</scroll-view>
+<!-- end -->
+
+
+
+
+

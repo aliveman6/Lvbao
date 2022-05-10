@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "Logo":"../../components/Logo/Logo",
+    "tabbar": "/components/tabbarComponent/tabbar"
+  },
+  "navigationBarTitleText": "绿宝",
+  "navigationStyle": "custom"
+}

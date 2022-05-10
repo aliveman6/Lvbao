@@ -1,0 +1,67 @@
+
+<!-- 顶部logo -->
+<view class="main">
+<Logo></Logo>
+</view>
+<!-- END -->
+
+
+<!-- 弹窗的欢迎消息 -->
+<view class="zan-dialog {{ showDialog ? 'zan-dialog--show' : '' }}">
+ <view class="zan-dialog__mask" bindtap="toggleDialog" />
+ <view class="zan-dialog__container">
+  <view class="Pop_text">此处可填一些需通知回收员的信息</view>
+ </view>
+</view>
+<!-- end -->
+
+
+<text class="welcome_text">亲爱的{{Recycler}}，欢迎你！</text>
+
+
+<!-- 订单主体 -->
+<view class="body">
+
+<!-- 订单状态 -->
+<view class="tabs_root">
+<view class="tabs_item {{currentTab==index?'select_tab':''}}" wx:for="{{tabs}}" wx:key="index" bindtap="selectTab" data-index="{{index}}">{{item}}</view>
+</view>
+
+<!-- 订单信息 -->
+<view class="order_item" wx:for="{{list}}" wx:key="index">
+<view class="message">
+订单号：{{item._id}}
+</view>
+<view class="message">
+昵称：{{item.name}}
+</view>
+<view class="message">
+电话：{{item.phone}}
+</view>
+<view class="message">
+地址：{{item.areaPicker}}
+</view>
+<view class="message">
+{{item.address}}
+</view>
+<view class="message">
+您的预约日期：{{item.datePicker}}
+</view>
+<view class="message">
+您的预约时间：{{item.timePicker}}
+</view>
+<view class="message">
+备注：{{item.remarks}}
+</view>
+
+<!-- 完成订单按钮 -->
+<button class="finish" wx:if="{{currentTab==0}}" bindtap="finish" data-id="{{item._id}}">完成订单</button>
+
+
+</view>
+</view>
+<!-- 订单 END -->
+
+
+
+

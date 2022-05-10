@@ -1,0 +1,45 @@
+<!-- 顶部logo -->
+<view class="main">
+<Logo></Logo>
+<text class="AccountManagement_top" decode="true">
+我的&gt;
+</text>
+<view class="AccountManagement_top_2">账户管理</view>
+</view>
+<!-- END -->
+
+<!-- 用户信息 -->
+<view class="container">
+
+    
+</view>
+
+
+<view class="AccountManagement_1">
+<!-- 我的积分 -->
+<navigator class="box">
+<view class="AccountManagement_btn_1">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E6%88%91%E7%9A%84%E7%A7%AF%E5%88%86.png" class="AccountManagement_btn_1_img" mode="widthFix"></image>
+<view class="AccountManagement_btn_1_text">我的积分</view>
+</view>
+</navigator>
+
+<!-- 个人信息 -->
+<navigator class="box">
+<view class="AccountManagement_btn_2">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF.png" class="AccountManagement_btn_1_img" mode="widthFix"></image>
+<view class="AccountManagement_btn_2_text">个人信息</view>
+</view>
+</navigator>
+</view>
+
+
+<view class="AccountManagement_2">
+<!-- 地址管理 -->
+<navigator class="box">
+<view class="AccountManagement_btn_1">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E5%9C%B0%E5%9D%80%E7%AE%A1%E7%90%86.png" class="AccountManagement_btn_2_img" mode="widthFix"></image>
+<view class="AccountManagement_btn_3_text">地址管理</view>
+</view>
+</navigator>
+</view>

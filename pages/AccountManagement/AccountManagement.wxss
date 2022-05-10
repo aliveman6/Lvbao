@@ -1,0 +1,122 @@
+
+.container{
+  width: 710rpx;
+  height: 100px;
+  border: blue 0px solid;
+  margin: 20rpx 10rpx 20rpx 20rpx;
+  border-radius: 20rpx;
+  box-shadow: 0px 5rpx 17rpx #e0e0e0;
+  background-color: #fff;
+}
+.sign{
+  width: 110rpx;
+  height: 42rpx;
+  margin: -61rpx 86rpx 0px 520rpx;
+  float: right;
+}
+.sign view{
+  font-size: 26rpx;
+  margin: -44rpx 20rpx 0px 36rpx;
+  color: #6BBF42;
+}
+.AccountManagement_top {
+  font-size: 26rpx;
+  display: block;
+  margin: -20rpx 20rpx 20rpx 160rpx;
+}
+.AccountManagement_top_2{
+  margin-left: 240rpx;
+  margin-top: -53rpx;
+}
+.AccountManagement_btn_1{
+  width: 40rpx;
+  border: 0px pink solid;
+  margin-top: 50rpx;
+  padding-left: 25rpx;
+}
+.AccountManagement_btn_1_img{
+  width: 66rpx;
+  margin-top: -3px;
+}
+.AccountManagement_btn_1_text{
+  font-size: 26rpx;
+  line-height: 26rpx;
+  margin: -90rpx 0px 0px 84rpx;
+}
+.AccountManagement_btn_2{
+  width: 40rpx;
+  border: 0px pink solid;
+  margin-top: 55rpx;
+  padding-left: 25rpx;
+}
+.AccountManagement_btn_2_img{
+  width: 80rpx;
+  margin-top: -5px;
+}
+.AccountManagement_btn_2_text{
+  font-size: 26rpx;
+  line-height: 26rpx;
+  margin: -88rpx 0px 0px 84rpx;
+  font-family: KaiTi;
+}
+.AccountManagement_btn_3_text{
+  font-size: 26rpx;
+  line-height: 26rpx;
+  margin: -100rpx 0px 0px 84rpx;
+  font-family: KaiTi;
+}
+.box{
+  width: 160rpx;
+  height: 160rpx;
+  margin-bottom: 30%;
+  display: flex;
+  justify-content:space-between;
+  border-radius: 20rpx;
+  box-shadow: 0px 5rpx 17rpx #e0e0e0;
+  background-color: #fff;
+}
+.AccountManagement_1{
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.AccountManagement_2{
+  margin-top: -67%;
+  margin-left: 60%;
+}
+
+
+.login{
+  width: 190rpx;
+  height: 64rpx;
+  font-size: 28rpx;
+  color: #fff;
+  background-color: #2BC78F;
+  font-family: KaiTi;
+  line-height: 60rpx;
+  float: left;
+  margin-top: 120rpx;
+  margin-left:254rpx;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
+  border-radius: 40rpx;
+}
+
+.loginBtn::after{
+  border: none;
+}
+
+.touxiang{
+  margin: 76rpx 0px 0px 66rpx;
+  float: left;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+
+.login_btn .text{
+  font-size: 32rpx;
+  display: inline-block;
+  margin: 88rpx 0px 0px 38rpx;
+}
+.login_btn{
+  height: 248rpx;
+}

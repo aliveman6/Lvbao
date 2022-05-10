@@ -1,0 +1,9 @@
+<view class="main">
+    <view class="head">表现形式</view>
+    <view class="body">居民日常生活过程中产生的菜帮、菜叶、瓜果皮壳、剩菜剩饭、废弃食物等易腐性垃圾</view>
+    <view class="img"><image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/zn/cylj.jpeg" mode="widthFix"></image></view>
+    <view class="head">回收的价值</view>
+    <view class="body">餐厨垃圾处理的利用价值：
+
+社会和经济价值：餐厨垃圾经过合理的技术处理可以变废为宝，制备皮何料、肥料和生物柴油等具有经济价值的产品。在当今能源、资源紧缺的现状下，餐厨垃圾的回收利用可以有效缓解这些问题，并取得良好的经济效益。</view>
+</view>

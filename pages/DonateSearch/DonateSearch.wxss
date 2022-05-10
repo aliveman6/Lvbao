@@ -1,0 +1,45 @@
+.main{
+    margin-left: 280rpx;
+}
+
+.SearchDeatil{
+    font-size: 40rpx;
+    font-weight: bolder;
+    margin-left: 40rpx;
+    margin-top: 60rpx;
+}
+
+.ProjectList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 300rpx;
+    height: 460rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 40rpx 20rpx 40rpx 40rpx;
+    border-radius: 30rpx;
+    background-color: #f3f3f3;
+    box-shadow: 6rpx 6rpx 10rpx rgba(0, 0, 0, 0.4);
+}
+
+.ProjectImg{
+    width: 300rpx;
+    height: 300rpx;
+}
+
+.ProjectTitle{
+    font-size: 30rpx;
+    display: flex;
+    justify-content: center;
+    margin-top: 20rpx;
+}
+
+.ProjectDescription{
+    font-size: 26rpx;
+    display: flex;
+    justify-content: center;
+    padding: 20rpx 30rpx;
+}

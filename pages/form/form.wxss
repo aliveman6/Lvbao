@@ -1,0 +1,136 @@
+.body{
+  margin: 64rpx 40rpx;
+}
+
+.top_title{
+  font-size: 50rpx;
+  color: #6BBF42;
+  margin: 50rpx 0px 0px 76rpx;
+  font-family: KaiTi;
+}
+
+.section__title{
+  padding-left: 60rpx;
+  line-height: 16rpx;
+  font-family: KaiTi;
+}
+
+.form{
+  background-color: #fff;
+  width:590rpx;
+  height: 62rpx;
+  margin: 44rpx 40rpx 40rpx 30rpx;
+  border-radius: 40rpx;
+  box-shadow: 0px 5rpx 17rpx rgba(0, 0, 0, 0.2);
+  padding-left: 30rpx;
+}
+
+.form_radio{
+  background-color: #fff;
+  width:592rpx;
+  height: 225rpx;
+  margin: 44rpx 40rpx 40rpx 30rpx;
+  padding-top: 40rpx;
+  padding-bottom: 20rpx;
+  padding-left: 28rpx;
+  display: flex;
+  flex-wrap:wrap;
+  border-radius: 40rpx;
+  box-shadow: 0px 5rpx 17rpx rgba(0, 0, 0, 0.2);
+}
+
+.form_radio label{
+  margin-right: 26rpx; 
+  font-size: 30rpx;
+}
+
+.form_radio label radio{
+  padding-left: 20rpx;
+  padding-top: 10rpx;
+}
+
+.placeholder{
+  padding-left: 28rpx;
+  font-family: KaiTi;
+}
+
+.picker{
+  padding-left: 20rpx;
+  padding-top: 14rpx;
+  font-family: KaiTi;
+}
+
+textarea{
+  width: 600rpx;
+  margin: 44rpx auto 50rpx auto;
+  padding: 26rpx 28rpx 0px 28rpx;
+  background-color: #fff;
+  border-radius: 40rpx;
+  box-shadow: 0px 5rpx 17rpx rgba(0, 0, 0, 0.2);
+}
+
+.MoneyOrder{
+  width: 600rpx;
+  height: 1100rpx;
+  margin: 44rpx auto 50rpx auto;
+  padding: 26rpx 28rpx 0px 28rpx;
+  background-color: #fff;
+  border-radius: 40rpx;
+}
+
+.frame{
+  width: 200rpx;
+  height: 140rpx;
+  background-color: #f3f3f3;
+  border-radius: 20rpx;
+  box-shadow: 0px 5rpx 17rpx rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  margin-left: 50rpx;
+  margin-top: 80rpx;
+}
+
+.am{
+  padding-top: 60rpx;
+  margin-left: 30rpx;
+}
+
+.am text{
+  margin-left: 26rpx;
+  margin-right: 26rpx;
+}
+
+.btn_style{
+  width: 350rpx;
+  height: 94rpx;
+  background-color: #6BBF42;
+  color: #fff;
+  margin-top: 30rpx;
+  border-radius: 50rpx;
+  box-shadow: 0px 5rpx 17rpx rgba(0, 0, 0, 0.2);
+}
+
+.btn_style::after{
+  border: 0;
+}
+
+.RecycleSorting{
+  display: flex;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+
+.Money{
+  display: flex;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+.total_Money{
+  display: flex;
+  justify-content: center;
+  margin-top: 60rpx;
+}
+.total_Weight{
+  display: flex;
+  justify-content: center;
+  margin-top: 40rpx;
+}

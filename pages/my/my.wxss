@@ -1,0 +1,138 @@
+.main{
+  margin-top: 50rpx;
+}
+
+.container{
+  width: 710rpx;
+  border: blue 0px solid;
+  margin: 20rpx 10rpx 20rpx 20rpx;
+  border-radius: 20rpx;
+  box-shadow: 0px 5rpx 17rpx rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.sign{
+  width: 110rpx;
+  height: 42rpx;
+  margin: -61rpx 86rpx 0px 520rpx;
+  float: right;
+}
+
+.sign view{
+  font-size: 28rpx;
+  margin: -44rpx 20rpx 0px 36rpx;
+  color: #6BBF42;
+}
+
+.set{
+  margin-top: 50rpx;
+  margin-bottom: 250rpx;
+  height: 1000rpx;
+}
+
+.set .pig{
+  padding: 28rpx 0px 0px 55rpx;
+}
+
+.set image{
+  width: 44rpx;
+}
+
+.set .set_nav{
+  width: 710rpx;
+  height: 100rpx;
+  margin: 30rpx 10rpx 20rpx 20rpx;
+  border: blue 0px solid;
+  border-radius: 20rpx;
+  box-shadow: 0px 5rpx 17rpx rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.set .set_text{
+  font-size: 30rpx;
+  font-family: KaiTi;
+  margin: -40rpx 20rpx 20rpx 70rpx;
+}
+.set .set_text_1{
+  font-size: 30rpx;
+  font-family: KaiTi;
+  margin: -44rpx 20rpx 20rpx 70rpx;
+}
+.btn{
+  width: 710rpx;
+  height: 100rpx;
+  margin: 30rpx 10rpx 20rpx 20rpx;
+  border: blue 0px solid;
+  border-radius: 20rpx;
+  box-shadow: 0px 5rpx 17rpx rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+.btn .btn_img{
+  width: 40rpx;
+  margin: 34rpx 20rpx 0px -408rpx;
+}
+.btn .btn_text{
+  display: inline;
+  font-size: 30rpx;
+  font-family: KaiTi;
+  margin-left: 20rpx;
+  position: relative;
+  top: -10rpx;
+  left: -12rpx;
+  border: 0px;
+}
+button::after{
+  border: none;
+}
+
+
+.login{
+  width: 190rpx;
+  height: 64rpx;
+  font-size: 28rpx;
+  color: #fff;
+  /* background: -webkit-linear-gradient(left,#0CCDA3,#C1FCD3,#37bb5f); */
+  background-color: #0CCDA3;
+  font-family: KaiTi;
+  line-height: 60rpx;
+  float: left;
+  margin-top: 120rpx;
+  margin-left:254rpx;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
+  border-radius: 40rpx;
+}
+
+.nologin{
+  width: 231rpx;
+  height: 88rpx;
+  font-size: 37rpx;
+  font-family: KaiTi;
+  line-height: 89rpx;
+  color: #fff;
+  background: -webkit-linear-gradient(bottom,#2dcc82c9,#31C581,#31c580b9);
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
+  border-radius: 40rpx;
+  margin-top: 30px;
+}
+
+.loginBtn::after{
+  border: none;
+}
+
+.touxiang{
+  margin: 76rpx 0px 0px 66rpx;
+  float: left;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+
+.login_btn .text{
+  font-size: 32rpx;
+  display: inline-block;
+  margin: 88rpx 0px 0px 38rpx;
+}
+.login_btn{
+  height: 300rpx;
+}
+

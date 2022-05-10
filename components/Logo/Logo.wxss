@@ -1,0 +1,6 @@
+.logo_img{
+  width: 96rpx;
+  height: 70rpx;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+}

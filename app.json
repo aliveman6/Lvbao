@@ -1,0 +1,83 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/RecyclerLogin/RecyclerLogin",
+        "pages/form/form",
+        "pages/DoorRecycling/DoorRecycling",
+        "pages/MoreFeatures/MoreFeatures",
+        "pages/ContactCustomerService/ContactCustomerService",
+        "pages/BecomeRecycler/BecomeRecycler",
+        "pages/AboutUs/AboutUs",
+        "pages/RecyclerLogs/RecyclerLogs",
+        "pages/Sign/Sign",
+        "pages/text_and_evaluation/text_and_evaluation",
+        "pages/DonateWithLove/DonateWithLove",
+        "pages/DonateTextDeatil/DonateTextDeatil",
+        "pages/DonateSearch/DonateSearch",
+        "pages/service/service",
+        "pages/bl/bl",
+        "pages/AccountManagement/AccountManagement",
+        "pages/DeliveryGuide/DeliveryGuide",
+        "pages/RecyclingConsultation/RecyclingConsultation",
+        "pages/RecyclingProcess/RecyclingProcess",
+        "pages/my/my",
+        "pages/order/order",
+        "pages/purpose/purpose",
+        "pages/PromotionCode/PromotionCode",
+        "pages/js/js",
+        "pages/sl/sl",
+        "pages/qt/qt",
+        "pages/fz/fz",
+        "pages/cy/cy",
+        "pages/util/util"
+    ],
+    "permission": {
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于小程序位置接口的效果展示"
+        }
+    },
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#80AF08",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "components/tabbarComponent/icon/home.png",
+                "selectedIconPath": "components/tabbarComponent/icon/_home.png"
+            },
+            {
+                "pagePath": "pages/purpose/purpose",
+                "text": "用途",
+                "iconPath": "components/tabbarComponent/icon/purpose.png",
+                "selectedIconPath": "components/tabbarComponent/icon/_purpose.png"
+            },
+            {
+                "pagePath": "pages/order/order",
+                "text": "订单",
+                "iconPath": "components/tabbarComponent/icon/order.png",
+                "selectedIconPath": "components/tabbarComponent/icon/_order.png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "components/tabbarComponent/icon/my.png",
+                "selectedIconPath": "components/tabbarComponent/icon/_my.png"
+            }
+        ]
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarTitleText": "绿宝",
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#f3f3f3"
+    },
+    "sitemapLocation": "sitemap.json",
+    "usingComponents": {
+        "van-icon": "@vant/weapp/icon/index",
+        "van-loading": "@vant/weapp/loading/index",
+        "van-skeleton": "@vant/weapp/skeleton/index"
+    }
+}

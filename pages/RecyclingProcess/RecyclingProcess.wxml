@@ -1,0 +1,111 @@
+<view>
+<!-- 顶部文字 -->
+<view class='topExpress'>
+<view class='topExpress-right'>
+我们的回收流程
+</view>
+</view>
+
+<!-- 回收流程内容 -->
+<view class='express-container'>
+<view class='express-item'>
+<view class='express-left_1'>
+人员准备
+</view>
+  
+<!-- 左边子容器 -->
+<view class='express-middle-axis'>
+<!-- 显示顶部收的圆点 -->
+<view class='dot-shou' wx:if="{{index==0}}">收</view>
+<!-- 正在进行的时间轴上半个时间线 -->
+<view class='online-top-closing'></view>
+<!-- 正在进行的时间轴点 -->
+<view class='dot-closing'></view>
+<!-- 正在进行的时间轴下半个时间线 -->
+<view class='online-bottom'></view>
+<!-- 显示尾部的圆点 -->
+<view class='dot-closing' wx:if="{{index==list.length - 1}}"></view>
+</view>
+<!-- 右边子容器 -->
+<view class='express-right'>
+<view class='express-status'>1.回收规定的工作服，戴工作帽、口罩。
+2.准备、回收过程中所需物品：回收车、回收箱、薄膜手套、橡胶手套、快速手消毒液、笔、回收单</view>
+</view>
+</view>
+
+<view class='express-item'>
+<view class='express-left_1'>
+回收过程
+</view>
+<!-- 左边子容器 -->
+<view class='express-middle-axis'>
+<!-- 正在进行的时间轴上半个时间线 -->
+<view class='online-top-closing'></view>
+<!-- 正在进行的时间轴点 -->
+<view class='dot-closing'></view>
+<!-- 正在进行的时间轴下半个时间线 -->
+<view class='online-bottom'></view>
+<!-- 显示尾部的圆点 -->
+<view class='dot-closing' wx:if="{{index==list.length - 1}}"></view>
+</view>
+<!-- 右边子容器 -->
+<view class='express-right'>
+<view class='express-status'>1.无需清点数量时，戴薄膜手套，将回收箱搬上回收车。
+2.专科器械需要清点数量时，操作者戴橡胶手套，清点数量并检查器械质量，清点完毕，脱手套，实施手消毒或洗手。登记回收数量、不合格物品填写回收意见单。<br/>
+3.污染于严禁接触清洁面及公共设施。<br/>
+4.实施标准预防措施，防止职业暴露发生。<br/>
+5.按找回收指定路线回到供应室去污区。</view>
+</view>
+</view>
+
+
+<view class='express-item'>
+<view class='express-left_1'>
+卸载过程
+</view>
+<!-- 左边子容器 -->
+<view class='express-middle-axis'>
+<!-- 正在进行的时间轴上半个时间线 -->
+<view class='online-top-closing'></view>
+<!-- 正在进行的时间轴点 -->
+<view class='dot-closing'></view>
+<!-- 正在进行的时间轴下半个时间线 -->
+<view class='online-bottom'></view>
+<!-- 显示尾部的圆点 -->
+<view class='dot-closing' wx:if="{{index==list.length - 1}}"></view>
+</view>
+<!-- 右边子容器 -->
+<view class='express-right'>
+<view class='express-status'>1.用清洁的手打开去污区门，退回收车入去污区，戴薄膜手套，将回收箱搬上分类台。<br/>
+2.分类台物品较满的情况下，可暂时存放在回收车内，依次进行卸载。<br/>
+3.卸载过程中轻放轻拿，避免发生物品损坏及增加噪音。</view>
+</view>
+</view>
+
+
+
+<view class='express-item'>
+<view class='express-left_1'>
+载具清洁
+</view>
+<!-- 左边子容器 -->
+<view class='express-middle-axis'>
+<!-- 正在进行的时间轴上半个时间线 -->
+<view class='online-top-closing'></view>
+<!-- 正在进行的时间轴点 -->
+<view class='dot-closing'></view>
+<!-- 正在进行的时间轴下半个时间线 -->
+<view class='online-bottom'></view>
+<!-- 显示尾部的圆点 -->
+<view class='dot-closing' wx:if="{{index==list.length - 1}}"></view>
+</view>
+<!-- 右边子容器 -->
+<view class='express-right'>
+<view class='express-status'>1.用高压水枪对回收进行彻底清洗，被明显污染时，可用含氯消毒剂抹拭。<br/>
+2.由专人负责对回收车进行清洁清洗。<br/>
+3.回收工作结束后，回收人员彻底洗手。</view>
+</view>
+</view>
+
+</view>
+</view>

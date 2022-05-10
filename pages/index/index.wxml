@@ -1,0 +1,102 @@
+<!-- 顶部logo -->
+<view class="main">
+<Logo></Logo>
+</view>
+<!-- END -->
+
+
+<!-- 底部导航栏 -->
+<tabbar tabbar="{{ tabbar }}"></tabbar>
+<!-- END -->
+
+
+<!-- 地理定位 -->
+<view class="position" bindtap="getLocationDetail">
+<image class="position_img" src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E5%AE%9A%E4%BD%8D.png" mode="widthFix">
+</image>
+<text class="position_text" decode="true">{{country}}&nbsp;{{province}}&nbsp;{{city}}&nbsp;{{district}}</text>
+</view>
+<!-- END -->
+
+<!-- 顶部首页 -->
+<view class="index_top">
+<view class="index_top_bg">
+<image class="index_top_bg_img" src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E9%A6%96%E9%A1%B5%E4%B8%8A.png" mode="widthFix"></image>
+
+<!-- <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E7%81%AF%E6%B3%A1.png" mode="widthFix" class="index_top_bg_img_2"></image> -->
+<swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="3000">
+
+          <swiper-item>
+          <view class="swiper_item">有 问 题 请 咨 询：800-882-880</view>
+          </swiper-item>
+          <swiper-item>
+          <view class="swiper_item">正 常 回 收 时 间：8：00~20：00</view>
+          </swiper-item>
+        </swiper>
+
+
+<!-- <view class="index_top_text"></view> -->
+</view>
+
+
+
+
+
+
+
+<view class="RotateIcon">
+<image class="roundImg" src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/RotateIcon.png"></image>
+</view>
+</view>
+<!-- END -->
+
+
+<!-- 预约上门时间 -->
+<navigator url="../form/form" class="appointment">
+<view class="appointment_text">预约上门时间</view>
+<view class="appointment_text2">填写日期和具体时间</view>
+</navigator>
+<!-- END -->
+
+
+<!-- 咨询 -->
+<view class="consult">
+<!-- 咨询顶部框 -->
+<view class="consult_top">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E5%BD%A9%E8%89%B2%E5%92%A8%E8%AE%AF.png" class="consult_logo_1"></image>
+<view class="consult_text">新闻</view>
+</view>
+
+<!-- 咨询内容 -->
+<view class="consult_content">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E7%BB%BF%E5%AE%9D%E5%A4%B4%E5%83%8F.png" class="consult_logo_2">
+</image>
+
+<!-- 绿宝logo -->
+<view class="lubao_text">绿宝</view>
+<text>环保为世界，公益为你</text>
+
+<!-- 咨询的文章列表 -->
+<view class="consult_content_article" wx:for="{{newslist}}" wx:key="index" bindtap="goDetail" data-id="{{item._id}}">
+    <navigator url="/pages/text_and_evaluation/text_and_evaluation?id={{item._id}}&index={{index}}">
+<image src="{{item.news_img}}" mode="widthFix" class="consult_content_article_img"></image>
+<view class="title">{{item.news_title}}</view>
+<view class="status">
+<view><van-icon name="clock-o" />{{item._createTime}}</view>
+<view wx:if="{{item.hits}}"><van-icon name="browsing-history-o" />{{item.hits}}</view>
+<view><van-icon name="good-job-o" />{{item.ZanSize}}</view>
+</view> 
+</navigator>
+</view>
+
+<view class="loading">
+    <van-loading color="#1989fa" size="24px" type="{{loading ? 'spinner' : 'none'}}" />
+    <view wx:if="{{loading}}">加载中...</view>
+    <view wx:else="">没有更多了~~~</view>
+</view>
+
+</view>
+</view>
+<!-- 咨询END -->
+
+

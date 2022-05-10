@@ -1,0 +1,9 @@
+
+<view class="main">
+
+<view class="ProjectTitle">{{detail.ProjectTitle}}</view>
+<view class="ProjectAuthor">{{detail.ProjectAuthor}}</view>
+<rich-text nodes="{{detail.ProjectContent}}" class="ProjectContent"></rich-text>
+<view class="ProjectContent_last">如有愿意捐赠的爱心人士或者想进一步了解项目内容的请致电1500937374</view>
+
+</view>

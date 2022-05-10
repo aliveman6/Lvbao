@@ -1,0 +1,7 @@
+<view class="main">
+<view class="head">表现形式</view>
+<view class="body">报纸、本子纸、各种包装用纸、办公用纸、广告纸片、大小纸盒等(但纸巾和厕纸不能回收)</view>
+<view class="img"><image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/fz.webp" mode="widthFix"></image></view>
+<view class="head">回收的价值</view>
+<view class="body">回收利用1t废紙可再造出800kg好纸,可以挽救17棵大树,少用纯碱240kg,降低造纸的污染排放75%,节省造纸能源消耗40%~50%;我国目前的废纸回收率仅为20%~30%,每年流失废纸600万吨,相当于浪费森林资源1~3百万亩。</view>
+</view>

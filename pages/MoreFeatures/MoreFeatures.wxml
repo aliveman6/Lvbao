@@ -1,0 +1,90 @@
+<!-- 顶部logo -->
+<view class="main">
+<Logo></Logo>
+<text class="MoreFeatures_top" decode="true">
+我的&gt;
+</text>
+<view class="MoreFeatures_top_2">更多功能</view>
+</view>
+<!-- END -->
+
+<!-- 用户信息 -->
+<view class="container">
+<!-- 授权登录按钮 -->
+<view class="login_btn">
+<button bindtap="login" wx:if="{{!userInfo}}" class="login">授权登录</button>
+<!-- 用户信息展示 -->
+<image src="{{userInfo.avatarUrl}}" class="touxiang"></image>
+<view class="text">{{userInfo.nickName}}</view>
+</view>
+<!-- 签到按钮 -->
+<navigator url="../Sign/Sign" class="sign" open-type="navigate">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E7%AD%BE%E5%88%B0.png" mode="widthFix" style="width: 50rpx;"></image>
+<view>签到</view>
+</navigator>
+</view>
+<!-- 用户信息 END -->
+
+
+<!-- 左边两个按钮 -->
+<view class="MoreFeatures_1">
+<!-- 每日金句 -->
+<navigator class="box">
+<view class="MoreFeatures_btn_1">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%8F%A5.png" class="MoreFeatures_btn_1_img" mode="widthFix"></image>
+<view class="MoreFeatures_btn_1_text">每日金句</view>
+</view>
+</navigator>
+
+<!-- 推广码 -->
+<navigator class="box" url="../../pages/PromotionCode/PromotionCode">
+<view class="MoreFeatures_btn_1">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E6%8E%A8%E5%B9%BF%E7%A0%81.png" class="MoreFeatures_btn_1_img" mode="widthFix"></image>
+<view class="MoreFeatures_btn_2_text">推广码</view>
+</view>
+</navigator>
+</view>
+
+
+<!-- 右边两个按钮 -->
+<view class="MoreFeatures_2">
+<!-- 分享转发 -->
+<view class="box2" bindtap="powerDrawer" data-statu="open">
+<view class="MoreFeatures_btn_1">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E5%88%86%E4%BA%AB%EF%BC%8C%E8%BD%AC%E5%8F%91.png" class="MoreFeatures_btn_1_img" mode="widthFix"></image>
+<view class="MoreFeatures_btn_3_text" >分享转发</view>
+<!-- 自定义弹窗 -->
+<!--mask-->
+<view class="drawer_screen" bindtap="powerDrawer" data-statu="close" wx:if="{{showModalStatus}}"></view>
+
+<!--content-->
+<!--使用animation属性指定需要执行的动画-->
+<view animation="{{animationData}}" class="drawer_box" wx:if="{{showModalStatus}}">
+
+<!--drawer content-->
+<view class="drawer_title">Tips</view>
+<view class="drawer_content_1">
+ 点击右上角三个点即可分享转发啦！
+</view>
+<view class="btn_ok" bindtap="powerDrawer" data-statu="close">
+<button>确定</button>
+</view>
+</view>
+<!-- 自定义弹窗END -->
+</view>
+</view>
+</view>
+
+<!-- 联系客服 -->
+<view class="MoreFeatures_3">
+  <view class="MoreFeatures_2_little">
+  <button class="box3" open-type="contact" bindcontact="handleContact">
+  <view class="MoreFeatures_btn_3">
+  <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E8%81%94%E7%B3%BB%E5%AE%A2%E6%9C%8D.png" class="MoreFeatures_btn_1_img" mode="widthFix"></image>
+  <view class="MoreFeatures_btn_4_text">联系客服</view>
+  </view>
+  </button>
+</view>
+</view>
+
+  

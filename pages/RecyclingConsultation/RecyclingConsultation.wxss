@@ -1,0 +1,42 @@
+
+.page{
+  margin-top: 50px;
+}
+
+.li {
+  margin:10px 15px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 34rpx;
+  width: 92%;
+  padding: 0 4%;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-radius: 20rpx;
+  box-shadow: 0px 5rpx 17rpx #e0e0e0;
+  background-color: #fff;
+ }
+ .bg-gray{
+  margin:auto 15px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-size: 34rpx;
+  width: 92%;
+  padding: 0 4%;
+  line-height: 50rpx;
+  border-radius: 20rpx;
+  box-shadow: 0px 5rpx 17rpx #e0e0e0;
+  overflow: hidden;
+  margin-bottom: 30px;
+ }
+ .top_title{
+   position: relative;
+   left: 37%;
+   top: 5%;
+   margin-bottom: 20px;
+   font-size: 25px;
+   color: #31C581;
+
+ }

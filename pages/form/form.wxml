@@ -1,0 +1,120 @@
+
+
+
+
+
+
+<view class="top_title">请填写您的信息</view>
+<!--这里用form，name=“nameName1”可以作为form的属性进行 
+（e.detail.value.nameName1）调用,
+form自带有提交和重置按钮，会自动获取表单中所有控件值的改变-->
+<form class="page__bd" bindsubmit="formSubmit" bindreset="formReset">
+<view class="body">
+  <view class="section">
+   <view class="section__title">姓名</view>
+   <input name="name" placeholder="请在这里输入姓名" class="form" placeholder-class="placeholder" />
+  </view>
+
+
+
+  <view class="section">
+    <view class="section__title">电话</view>
+    <input name="phone" type="number" placeholder="请在这里输入电话" class="form" placeholder-class="placeholder" />
+  </view>
+
+  <view class="section section_gap">
+   <view class="section__title">回收类别</view>
+   <checkbox-group name="radio" class="form_radio">
+    <label><checkbox value="塑料回收"/>塑料回收</label>
+    <label><checkbox value="金属回收"/>金属回收</label>
+    <label><checkbox value="纸皮回收"/>纸皮回收</label>
+    <label><checkbox value="数码回收"/>数码回收</label>
+    <label><checkbox value="旧衣回收"/>旧衣回收</label>
+    <label><checkbox value="家电回收"/>家电回收</label>
+   </checkbox-group>
+  
+  </view>
+  
+
+
+  <view class="section">
+  <view class="section__title">选择您的省、市、区</view>
+  <picker name="areaPicker" mode="region" bindchange="bindRegionChange" value="{{region}}" class="form" placeholder-class="placeholder">
+    <view class="picker">
+      当前选择：{{region[0]}}  {{region[1]}}  {{region[2]}}
+    </view>
+  </picker>
+</view>
+
+
+<view class="section">
+  <view class="section__title">详细的门牌号地址</view>
+  <textarea name="address" cols="10" rows="20" confirm-type="done" adjust-position="true" ></textarea>
+  </view>
+
+
+
+
+  <view class="section">
+   <view class="section__title">您理想的预约日期</view>
+   <picker name="datePicker" mode="date" value="{{date}}" bindchange="bindDateChange" class="form" placeholder-class="placeholder">
+    <view class="picker">
+     当前选择: {{date}}
+    </view>
+   </picker>
+  </view>
+
+
+
+
+
+
+  <view class="section">
+   <view class="section__title">您理想的预约时间</view>
+   <picker name="timePicker" mode="time" value="{{time}}" bindchange="bindTimeChange" class="form" placeholder-class="placeholder">
+    <view class="picker">
+     当前选择: {{time}}
+    </view>
+   </picker>
+  </view>
+
+
+<view class="section__title">预估金额及重量</view>
+<view class="MoneyOrder">
+<view wx:for="{{MoneyOrderList}}" wx:key="index" class="frame">
+<view class="RecycleSorting">{{item.RecycleSorting}}</view>
+<view class="Money">{{item.Money}}元/公斤</view>
+
+<view class="am">
+<van-icon name="minus" bindtap="subtract" data-id="{{item._id}}" />
+<text class="num">{{item.num?item.num:0}}</text>
+<van-icon name="plus" bindtap="add" data-id="{{item._id}}" />
+</view>
+</view>
+
+<view class="total_Money" name="totalMoney" >预估金额：{{totalMoney}}元</view>
+<view class="total_Weight" name="totalWeight" >预估重量：{{totalWeight}}公斤</view>
+  </view>
+
+
+<!-- <view name="createTime" bindtap="createTime">点击我获取创建时间</view> -->
+  
+
+
+
+  <view class="section">
+  <view class="section__title">备注</view>
+  <textarea name="remarks" cols="10" rows="20" confirm-type="done" adjust-position="true" ></textarea>
+  </view>
+
+  <view class="btn-area">
+   <button form-type="submit" class="btn_style">提交</button>
+   <button form-type="reset" class="btn_style">重置</button>
+  </view>
+
+
+</view>
+ </form>
+
+ 
+

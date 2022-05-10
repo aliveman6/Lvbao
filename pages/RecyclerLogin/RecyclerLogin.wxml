@@ -1,0 +1,23 @@
+
+<!-- 顶部logo -->
+<view class="Logo">
+<Logo></Logo>
+</view>
+<!-- END -->
+
+
+<view class="main">
+
+<view class="input_1">
+输入账号：
+<input class="input" bindinput="getAccount" />
+</view>
+
+<view class="input_2">
+输入密码：
+<input class="input" bindinput="getPassword" />
+</view>
+
+<button bindtap="login" class="btn">登录</button>
+
+</view>

@@ -1,0 +1,12 @@
+<view class="body">
+
+<!-- logo -->
+<view class="main">
+<Logo></Logo>
+</view>
+<!-- END -->
+
+<!-- 内容 -->
+<view class="AboutUs_text">绿宝的服务宗旨是为了让更多的人了解“回收”的重要性及其概念。</view>
+
+</view>

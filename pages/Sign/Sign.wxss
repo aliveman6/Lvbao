@@ -1,0 +1,62 @@
+.container{
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+ }
+ .mxc1{
+  position: relative;
+  width: 100%;
+  height: 400rpx;
+  margin-top: 140rpx;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3;
+ }
+ .mxc1 text{
+  font-size: 60rpx;
+  font-family: KaiTi;
+  font-weight: bold;
+  line-height: 400rpx;
+ }
+ .mxc2-1{
+  position: absolute;
+  width: 35%;
+  height: 250rpx;
+  /* border: 2rpx solid rgba(41, 212, 70, 0.959); */
+  background-color: rgba(73, 206, 61, 0.959);
+  border-radius: 50%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-top: 750rpx;
+ }
+ .mxc2-1 .text{
+  color: white;
+  line-height: 74rpx;
+  margin: 80rpx auto;
+  font-size: 18px;
+  font-family: KaiTi;
+ }
+ .mxc2-2{
+  position: absolute;
+  width: 35%;
+  height: 250rpx;
+  border: 2rpx solid rgba(182, 177, 177, 0.959);
+  background-color: rgba(182, 177, 177, 0.959);
+  border-radius: 50%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-top: 750rpx;
+ }
+ .mxc2-2 .text{
+  color: white;
+  line-height: 74rpx;
+  margin: 80rpx auto;
+  font-size: 18px;
+  font-family: KaiTi;
+ }

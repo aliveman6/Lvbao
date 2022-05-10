@@ -1,0 +1,52 @@
+<!-- 顶部logo -->
+<view class="main">
+<Logo></Logo>
+</view>
+<!-- END -->
+
+
+<!-- 底部导航栏 -->
+<tabbar tabbar="{{ tabbar }}"></tabbar>
+<!-- END -->
+
+
+<!-- 轮播图 -->
+<view class="RotationMap">
+<swiper autoplay="true" indicator-dots="true" indicator-active-color="#38ad38" circular="true">
+<swiper-item><image mode="widthFix" src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/ClothingRecycling_img.png"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/DigitalRecycling_img.png"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/HomeApplianceRecycling_img.png"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/MetalRecycling_img.png"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/PaperRecycling_img.png"></image></swiper-item>
+<swiper-item><image mode="widthFix" src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/PlasticRecycling_img.png"></image></swiper-item>
+</swiper>
+</view>
+
+<!-- 下四个按钮 -->
+<view class="service_bottom">
+<!-- 回收咨询按钮 -->
+<navigator class="botton" url="../RecyclingConsultation/RecyclingConsultation">
+  <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E5%92%A8%E8%AF%A2.png" mode="widthFix"></image>
+  <view class="button_text">回收咨询</view>
+</navigator>
+<!-- 上门回收按钮 -->
+<navigator class="botton" url="../DoorRecycling/DoorRecycling">
+  <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E5%9B%9E%E6%94%B6%E8%BD%A6.png" mode="widthFix" ></image>
+  <view class="button_text">上门回收</view>
+</navigator>
+<!-- 投递指南按钮 -->
+<navigator class="botton" url="../DeliveryGuide/DeliveryGuide">
+  <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E6%8C%87%E5%8D%97%E9%92%88.png" mode="widthFix" class="img_small"></image>
+  <view class="button_text">投递指南</view>
+</navigator>
+</view>
+<!-- 爱心捐赠按钮 -->
+<view class="service_bottom_botton">
+  <navigator class="service_last" url="../DonateWithLove/DonateWithLove">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E9%9D%A2-%E8%A1%A3%E7%89%A9.png" mode="widthFix" class="service_last_left"></image>
+<view>爱心捐赠</view>
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E4%B9%A6%E7%B1%8D.png" class="service_last_right" mode="widthFix"></image>
+</navigator>
+</view>
+<!-- END -->
+

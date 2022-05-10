@@ -1,0 +1,85 @@
+<!-- 顶部logo -->
+<view class="main">
+<Logo></Logo>
+</view>
+<!-- END -->
+
+
+<!-- 底部导航栏 -->
+<tabbar tabbar="{{ tabbar }}"></tabbar>
+<!-- END -->
+
+
+<!-- 个人信息界面 -->
+<view class="container">
+<!-- 授权登录按钮 -->
+<view class="login_btn">
+<button bindtap="login" wx:if="{{!userInfo}}" class="login">授权登录</button>
+<image src="{{userInfo.avatarUrl}}" class="touxiang"></image>
+<view class="text">{{userInfo.nickName}}</view>
+</view>
+
+<!-- 签到按钮 -->
+<navigator url="../Sign/Sign" class="sign" open-type="navigate">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E7%AD%BE%E5%88%B0.png" mode="widthFix" style="width: 50rpx;"></image>
+<view>签到</view>
+</navigator>
+</view>
+<!-- 个人信息界面END -->
+
+<!-- 列表栏 -->
+<view class="set">
+
+<!-- 成为回收员 -->
+<navigator class="set_nav" url="../BecomeRecycler/BecomeRecycler">
+<view class="pig">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E6%88%90%E4%B8%BA%E5%9B%9E%E6%94%B6%E5%91%98.png" mode="widthFix"></image>
+<view class="set_text_1">成为回收员</view>
+</view>
+</navigator>
+
+<!-- 回收流程 -->
+<navigator class="set_nav" url="/pages/RecyclingProcess/RecyclingProcess">
+<view class="pig">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E5%9B%9E%E6%94%B6%E6%B5%81%E7%A8%8B.png" mode="widthFix" style="width: 40rpx; margin-top: 3px;"></image>
+<view class="set_text">回收流程</view>
+</view>
+</navigator>
+
+
+
+<!-- 用户反馈 -->
+<button class="btn" open-type="feedback">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E7%94%A8%E6%88%B7%E5%8F%8D%E9%A6%88.png" mode="widthFix" class="btn_img"></image>
+<view class="btn_text">用户反馈</view>
+</button>
+
+<!-- 更多功能 -->
+<navigator class="set_nav" url="../MoreFeatures/MoreFeatures">
+<view class="pig">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E6%9B%B4%E5%A4%9A%E5%8A%9F%E8%83%BD.png" mode="widthFix"></image>
+<view class="set_text_1">更多功能</view>
+</view>
+</navigator>
+
+<!-- 关于我们 -->
+<navigator class="set_nav" url="../AboutUs/AboutUs">
+<view class="pig">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E8%B4%A6%E6%88%B7%E7%AE%A1%E7%90%86.png" mode="widthFix"></image>
+<view class="set_text_1">关于我们</view>
+</view>
+</navigator>
+
+<!-- 回收员登录 -->
+<navigator class="set_nav" url="../RecyclerLogin/RecyclerLogin">
+<view class="pig">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E5%9B%9E%E6%94%B6%E5%91%98%E7%99%BB%E5%BD%95.png" mode="widthFix"></image>
+<view class="set_text_1">回收员登录</view>
+</view>
+</navigator>
+
+<!-- 退出登录按钮 -->
+<button bindtap="loginOut" class="nologin">退出登录</button>
+</view>
+
+<!-- 列表栏END -->

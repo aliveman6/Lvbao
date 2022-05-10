@@ -1,0 +1,25 @@
+
+<!-- 顶部logo -->
+<view class="main">
+<Logo></Logo>
+</view>
+<!-- END -->
+
+
+
+<!-- 搜素结果文字 -->
+<view class="SearchDeatil">搜索结果</view>
+
+
+
+<!-- 搜索结果展示 -->
+<view class="ProjectList">
+<view wx:for="{{list}}" wx:key="index" bindtap="goDetail" wx:key="index"  data-id="{{item._id}}">
+<view class="item">
+<image class="ProjectImg" src="{{item.ProjectImage}}" mode="aspectFill"></image>
+<view class="ProjectTitle">{{item.ProjectTitle}}</view>
+<view class="ProjectDescription">{{item.ProjectDescription}}</view>
+</view>
+</view>
+</view>
+<!-- end -->

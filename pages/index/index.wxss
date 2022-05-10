@@ -1,0 +1,199 @@
+.main{
+  margin-top: 50rpx;
+}
+
+.intro {
+  margin: 60rpx;
+  text-align: center;
+}
+
+.roundImg{
+  width: 290rpx;
+  height: 310rpx;
+  position: absolute;
+  top: 370rpx;
+  right: 40rpx;
+  -webkit-animation: round_animate 5s linear infinite;
+  animation: round_animate 8s linear infinite; 
+}
+
+@keyframes round_animate {
+to {
+    transform: rotate(1turn);
+  }
+}
+.position_img{
+  width: 40rpx;
+  margin-left: 61rpx;
+  margin-right: 20rpx;
+  margin-top: 40rpx;
+}
+
+.position_text{
+  font-size: 30rpx;
+  font-family: KaiTi;
+  margin-bottom: 40rpx;
+}
+
+.appointment{ 
+  width: 620rpx;
+  height: 120rpx;
+  border: blue 0px solid;
+  margin: 140rpx auto 80rpx auto;
+  border-radius: 20rpx;
+  box-shadow: 0px 5rpx 17rpx #e0e0e0;
+  background-color: #fff;
+}
+
+.appointment .appointment_text{
+  font-size: 40rpx;
+  color: #17c285;
+  padding: 20rpx 0px 0px 34rpx;
+  font-family: KaiTi;
+}
+
+.appointment .appointment_text2{
+  font-size: 25rpx;
+  color: grey;
+  padding: 4rpx 0px 0px 34rpx;
+  font-family: KaiTi;
+}
+
+.index_top{
+  width: 720rpx;
+  height: 400rpx;
+  margin: 28rpx auto;
+}
+
+.index_top_bg{
+  width: 708rpx;
+  height: 460rpx;
+  margin-left: 4rpx;
+  border-radius: 20rpx;
+  background: -webkit-linear-gradient(bottom,#6BBF42,#31C581,#19e988);
+}
+
+.index_top_bg .swiper_container {
+  position: relative;
+  margin-top: -376rpx;
+  margin-left: 60rpx;
+  height: 40rpx;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 20rpx;
+  padding-left: 80rpx;
+  padding-top: 6rpx;
+}
+
+.index_top_bg .swiper_item {
+  font-size: 28rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #fe4302;
+}
+
+.index_top_bg_img{
+  width: 370rpx;
+  margin-top: 240rpx;
+  margin-left: 20rpx;
+}
+
+/* .index_top_bg_img_2{
+  width: 30rpx;
+} */
+
+.consult{
+  width: 700rpx;
+  border: blue 0px solid;
+  margin: 24rpx auto;
+  border-radius: 20rpx;
+  box-shadow: 0px 5rpx 20rpx #e0e0e0;
+}
+
+.consult_top{
+  height: 62rpx;
+  background-color: #fff;
+  border-radius: 20rpx 20rpx 0px 0px;
+}
+
+.consult_top .consult_text{
+  font-size: 30rpx;
+  color: #38ad38;
+  display: inline-block;
+  margin: 25rpx 0px 0px 14rpx;
+}
+
+.consult_content{
+  width: 700rpx;
+  background-color: #FFFFFF;
+  float: left;
+  margin-bottom: 200rpx;
+  border-radius: 0px 0px 20rpx 20rpx;
+}
+
+.consult .consult_logo_1{
+  width: 40rpx; 
+  height: 40rpx; 
+  margin:20rpx 0px 0px 20rpx; 
+  float: left;
+}
+
+.consult_content .consult_logo_2{
+  width:50rpx; 
+  height:50rpx; 
+  margin:20rpx 0px 10rpx 50rpx; 
+  float: left;
+}
+
+.consult_content .lubao_text{
+  color: #38ad38; 
+  font-size: 25rpx; 
+  margin: 0px 0px 10rpx 20rpx;
+  padding:20rpx 0px 0px 100rpx;
+  font-family: KaiTi;
+}
+
+.consult_content text{
+  color: grey; 
+  font-size: 18rpx; 
+  margin: -6rpx 0px 10rpx 20rpx; 
+  float: left;
+}
+
+.consult_content_article{
+  border: blue 0px solid;
+  width: 600rpx;
+  margin: 54rpx 0px 60rpx 54rpx;
+  background-color: #ECEBEB;
+}
+
+.consult_content_article .title{
+  width: 260rpx;
+  float: right;
+  margin: 16rpx 34rpx 10rpx 10rpx;
+  font-size: 26rpx;
+  font-family: KaiTi;
+}
+
+.consult_content_article_img{
+  width: 228rpx;
+  margin: 20rpx 0px 0px 32rpx;
+}
+
+.status{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+.status view{
+  margin-left: 22px;
+}
+
+.loading{
+  text-align: center;
+  padding: 30rpx 0;
+}

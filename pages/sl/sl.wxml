@@ -1,0 +1,7 @@
+<view class="main">
+    <view class="head">表现形式</view>
+    <view class="body">各种塑料袋、塑料包装、泡沫塑料、一次性型料餐盒餐具、硬塑料等</view>
+    <view class="img"><image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/sl.webp" mode="widthFix"></image></view>
+    <view class="head">回收的价值</view>
+    <view class="body">回收利用1 t废塑料(包括食品袋、快餐饭盒等)可生产无铅汽油和柴油各500-750 L,仅汽油可供3000辆小轿车行驶1公里左右。发泡塑料(如一次性餐盒和泡沫包装废塑料)可以再造塑料,三个废餐盒可以做一把学生用尺,仅北京地区的每天使用的一次性餐盒就有60万~70万个,理论上可回收造尺子20多万把。</view>
+</view>

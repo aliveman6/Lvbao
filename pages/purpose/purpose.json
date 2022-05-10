@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "tabbar": "/components/tabbarComponent/tabbar",
+    "Logo":"../../components/Logo/Logo"
+  },
+  "navigationStyle": "custom"
+}

@@ -1,0 +1,67 @@
+
+<!-- 遮罩层的展示 -->
+<view class="{{Page?'Page_true':'Page_false'}}" catchtap="btnPop">
+
+<!-- 顶部logo -->
+<view class="logo">
+<Logo></Logo>
+</view>
+<!-- END -->
+
+
+<!-- 底部导航栏 -->
+<tabbar tabbar="{{ tabbar }}"></tabbar>
+<!-- END -->
+
+<!-- 页面上方的圆形图片 -->
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E5%BE%AA%E7%8E%AF.jpg" mode="widthFix" class="purpose_img"></image>
+
+<!-- 展开后的按钮 -->
+<navigator url="../fz/fz">
+<view class="icon {{isShow ? 'a1':'a10'}}" bindtap="index">
+<view class="icon_text">废品</view>
+</view>
+</navigator>
+
+<navigator url="../sl/sl">
+<view class="icon {{isShow ? 'a2':'a20'}}">
+    <view class="icon_text">塑料</view>
+</view>
+</navigator>
+
+<navigator url="../bl/bl">
+<view class="icon {{isShow ? 'a3':'a30'}}">
+    <view class="icon_text">玻璃</view>
+</view>
+</navigator>
+
+<navigator url="../js/js">
+<view class="icon {{isShow ? 'a4':'a40'}}">
+    <view class="icon_text">金属</view>
+</view>
+</navigator>
+
+<navigator url="../cy/cy">
+<view class="icon {{isShow ? 'a5':'a50'}}">
+    <view class="icon_text">厨余</view>
+</view>
+</navigator>
+
+<navigator url="../qt/qt">
+<view class="icon {{isShow ? 'a6':'a60'}}">
+    <view class="icon_text">有机物</view>
+</view>
+</navigator>
+
+<!-- 圆形回收图片 -->
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E5%9E%83%E5%9C%BE%E7%B1%BB%E5%88%AB.png" class="icon_new {{isShow ? 'a0' :'a00'}}" catchtap="btnPop" mode="widthFix"></image>
+
+<!-- 页面下方的内容 -->
+<view class="purpose_text">
+<view class="purpose_title">让有限资源无限循环</view>
+<view class="text">垃圾经过细分，也能“变废为宝”，经过分类回收可再生物质，剔除重金属和塑料撒撒气我就哦i时间奥i多久哦i请问大家去我i就但我的确我带你去我家看当我穷困潦倒目前乌克兰的密切往来科目的擦去文策我离开那么未来可能</view>
+</view>
+
+</view>
+<!-- 遮罩层展示结束 -->
+

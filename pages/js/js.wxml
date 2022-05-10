@@ -1,0 +1,9 @@
+<view class="main">
+<view class="head">表现形式</view>
+<view class="body">易拉罐、铁皮罐头盒、牙旁皮、废电池等</view>
+<view class="img">
+    <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/js.webp" mode="widthFix"></image>
+</view>
+<view class="head">回收的价值</view>
+<view class="body">废易拉罐熔解后可再造成新罐,还可制成汽车和飞机零件,甚至家具。废电池中所含的汞、镉是污染性极强的有毒重金属,但回收电池可提取稀有全屈、锌、铜和二氧化锰。</view>
+</view>

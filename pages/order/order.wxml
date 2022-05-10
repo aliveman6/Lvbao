@@ -1,0 +1,57 @@
+<!-- 顶部logo -->
+<view class="main">
+<Logo></Logo>
+</view>
+<!-- END -->
+
+<!-- 底部导航栏 -->
+<tabbar tabbar="{{ tabbar }}"></tabbar>
+<!-- END -->
+
+<!-- 订单主体 -->
+<view class="body">
+
+<!-- 订单状态 -->
+<view class="tabs_root">
+<view class="tabs_item {{currentTab==index?'select_tab':''}}" wx:for="{{tabs}}" wx:key="index" bindtap="selectTab" data-index="{{index}}">{{item}}</view>
+</view>
+
+<!-- 订单信息 -->
+<view class="order_item" wx:for="{{list}}" wx:key="index">
+<view class="message">
+订单号：{{item._id}}
+</view>
+<view class="message">
+昵称：{{item.name}}
+</view>
+<view class="message">
+电话：{{item.phone}}
+</view>
+<view class="message">
+地址：{{item.areaPicker}}
+</view>
+<view class="message">
+{{item.address}}
+</view>
+<view class="message">
+您的预约日期：{{item.datePicker}}
+</view>
+<view class="message">
+您的预约时间：{{item.timePicker}}
+</view>
+<view class="message">
+备注：{{item.remarks}}
+</view>
+
+<!-- 取消订单和完成订单按钮 -->
+<button class="cancel" wx:if="{{currentTab==0}}" bindtap="cancel" data-id="{{item._id}}">取消订单</button>
+<button class="finish" wx:if="{{currentTab==0}}" bindtap="finish" data-id="{{item._id}}">完成订单</button>
+
+
+</view>
+</view>
+<!-- 订单 END -->
+
+
+
+

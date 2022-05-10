@@ -1,0 +1,83 @@
+<wxs module="public" src="../../pages/wxs/public.wxs"></wxs>
+
+
+<view class="page">
+
+<van-skeleton title row="8" class="skeleton" loading="{{loading}}">
+
+<scroll-view scroll-y class="page-content" style="height:{{scrollViewHeight}}" scroll-into-view="{{scrollIntoView}}">
+<view class="page-module">
+
+<view class="title">{{detail.news_title}}</view>
+<view class="author">作者：{{detail.news_author}}</view>
+<rich-text nodes="{{detail.content}}" class="content"></rich-text>
+</view>
+
+<view class="text_status">
+<view class="row">发布时间：{{public.getTime(detail._createTime,1)}}</view>
+<view class="row" wx:if="{{detail.hits}}">阅读量：{{public.getNumber(detail.hits)}}次</view>
+</view>
+
+<view class="likeAndCollection">
+<view class="recommend {{detail.onlike?'active':''}}" bindtap="clickLike">
+    <view class="icon"><van-icon name="good-job" /></view>
+    <view class="num">{{detail.ZanSize}}</view>
+</view>
+
+
+
+<view class="collection {{onCollection?'active':''}}" bindtap="clickCollection" >
+<image src="{{imgUrl}}" mode="widthFix" class="collection_img"></image>
+</view>
+</view>
+
+
+<view class="userinfo">
+    <view class="text">- 赞过的用户 -</view>
+    <view class="picgroup">
+    <image wx:for="{{detail.UserArr}}" wx:key="index" src="{{item.avatarUrl}}" mode="aspectFill"></image>
+    </view>
+</view>
+
+
+
+
+
+
+<!-- 评论列表 start -->
+<view class="evaluation-wrap" id="evaluation-wrap">
+<view class="evaluation__item" wx:for="{{evaluationData}}" wx:key="index">
+<view class="evaluation__avatar">
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/laugh.jpg"></image>
+</view>
+<view class="evaluation__content">
+<view class="evaluation__name">
+{{item.name}}
+<view class="evaluation__time">12小时前</view>
+</view>
+<view class="evaluation__text">{{item.text}}</view>
+</view>
+</view>
+</view>
+<view class="evaluation-end" id="evaluation-end" style="height:{{paddingHeight}}px">
+此标签在此demo中仅用于定位和撑起页面高度
+</view>
+</scroll-view>
+
+<!-- 固定在底部的输入框 start -->
+<view class="page-footer">
+<view class="commentContent" bindtap="handleIsShowComment">
+<view>写评论...</view>
+</view>
+</view>
+
+<!-- 弹层评论框 start -->
+<textareaFixedBottom info="{{popupEvaluation}}" bind:myeventEvaluationData="myeventEvaluationData">
+</textareaFixedBottom>
+<!-- 弹层评论框 end -->
+
+<!-- 固定在底部的输入框 end -->
+
+</van-skeleton>
+
+</view>
