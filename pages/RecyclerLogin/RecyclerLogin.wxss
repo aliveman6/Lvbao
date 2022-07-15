@@ -1,3 +1,8 @@
+page{
+    background-image: url(https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/bgc.jpg);
+    background-attachment: fixed;
+  }
+
 .Logo{
     position: relative;
     top: 27%;
@@ -5,31 +10,31 @@
 }
 
 .main{
-    width: 350px;
-    height: 300px;
-    padding: 40px 40px;
-    margin-top: 100px;
-    margin-left: 3%;
+    width: 700rpx;
+    height: 600rpx;
+    padding: 80rpx 80rpx;
+    margin-top: 200rpx;
+    margin-left: 26rpx;
     background-color: #fff;
     border-radius: 20rpx;
     box-shadow: 0px 5rpx 17rpx rgba(0, 0, 0, 0.1);
 }
 .input{
-    margin-top:10px;
+    margin-top:20rpx;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 40rpx;
     box-shadow: 0px 5rpx 17rpx rgba(0, 0, 0, 0.1);
     padding-left: 30rpx;
 }
 .input_1{
-    margin-top: 40px;
+    margin-top: 80rpx;
 }
 .input_2{
-    margin-top: 10px;
+    margin-top: 20rpx;
 }
 .btn{
-    width: 100px;
-    margin-top: 30px;
+    width: 200rpx;
+    margin-top: 60rpx;
     border-radius: 40rpx;
     color: #fff;
     background: -webkit-linear-gradient(bottom,#2dcc82c9,#31C581,#31c580b9);

@@ -1,14 +1,16 @@
 {
     "pages": [
         "pages/index/index",
-        "pages/RecyclerLogin/RecyclerLogin",
+        "pages/RecyclerLogs/RecyclerLogs",
         "pages/form/form",
         "pages/DoorRecycling/DoorRecycling",
+        "pages/util/util",
+        "pages/purpose/purpose",
+        "pages/AboutUs/AboutUs",
+        "pages/RecyclerLogin/RecyclerLogin",
         "pages/MoreFeatures/MoreFeatures",
         "pages/ContactCustomerService/ContactCustomerService",
         "pages/BecomeRecycler/BecomeRecycler",
-        "pages/AboutUs/AboutUs",
-        "pages/RecyclerLogs/RecyclerLogs",
         "pages/Sign/Sign",
         "pages/text_and_evaluation/text_and_evaluation",
         "pages/DonateWithLove/DonateWithLove",
@@ -22,14 +24,12 @@
         "pages/RecyclingProcess/RecyclingProcess",
         "pages/my/my",
         "pages/order/order",
-        "pages/purpose/purpose",
         "pages/PromotionCode/PromotionCode",
         "pages/js/js",
         "pages/sl/sl",
         "pages/qt/qt",
         "pages/fz/fz",
-        "pages/cy/cy",
-        "pages/util/util"
+        "pages/cy/cy"
     ],
     "permission": {
         "scope.userLocation": {
@@ -69,7 +69,7 @@
         ]
     },
     "window": {
-        "backgroundTextStyle": "light",
+        "backgroundTextStyle": "dark",
         "navigationBarTitleText": "绿宝",
         "navigationBarTextStyle": "black",
         "navigationBarBackgroundColor": "#f3f3f3"

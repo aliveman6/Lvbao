@@ -1,3 +1,4 @@
+<!-- 页面主体 -->
 <view class="container">
  <view class="mxc1">
  <text>您已签到 {{firstTime}} 次</text>

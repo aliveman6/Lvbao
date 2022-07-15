@@ -37,7 +37,7 @@
   width: 60rpx;
   line-height: 46rpx;
   font-family: KaiTi;
-  font-size: 38rpx;
+  font-size: 48rpx;
   color: whitesmoke;
 }
 
@@ -67,7 +67,7 @@
   height: 184rpx;
   line-height: 46rpx;
   font-family: KaiTi;
-  font-size: 38rpx;
+  font-size: 48rpx;
   position: fixed;
   top: 30%;
   left: 270rpx;

@@ -1,6 +1,5 @@
 <!-- 头部文字 -->
 <view class="top_title">请认真填写真实、有效的个人信息！</view>
-<!-- END -->
 
 <!--这里用form，name=“nameName1”可以作为form的属性进行 
 （e.detail.value.nameName1）调用,

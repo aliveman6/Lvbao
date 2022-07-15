@@ -9,7 +9,7 @@
         "es6": false,
         "enhance": true,
         "postcss": true,
-        "preloadBackgroundData": false,
+        "preloadBackgroundData": true,
         "minified": true,
         "newFeature": false,
         "coverView": true,
@@ -40,10 +40,10 @@
         "minifyWXML": true,
         "showES6CompileOption": false,
         "useCompilerPlugins": false,
-        "ignoreUploadUnusedFiles": false
+        "ignoreUploadUnusedFiles": true
     },
     "compileType": "miniprogram",
-    "libVersion": "2.24.1",
+    "libVersion": "2.24.4",
     "appid": "wx2709fa2a8cdbfec9",
     "projectname": "%E7%BB%BF%E5%AE%9D",
     "debugOptions": {

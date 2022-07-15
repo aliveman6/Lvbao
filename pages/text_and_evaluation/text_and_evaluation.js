@@ -4,6 +4,9 @@ const app = getApp()
 let id,index;
 let CollectionStatus = false
 
+import util from "../../pages/util/util.js";
+
+
 Page({
 
   data: {
@@ -75,7 +78,8 @@ Page({
       desc: '点赞和收藏需要授权',
       success:res=>{
         let {nickName,avatarUrl}=res.userInfo
-        let posttime=Date.now();
+        let posttime2=Date.now();
+        let posttime = util.getTime(posttime,4)
         wx.cloud.callFunction({
           name:"news_like_add",
           data:{
@@ -248,6 +252,12 @@ Page({
     pages.setData({
       newslist
     })
+  },
+
+  onPullDownRefresh: function () {
+    this.getDetail();
   }
+
+
 
 })

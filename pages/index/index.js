@@ -1,7 +1,9 @@
 //获取应用实例
 const app = getApp()
 
-import util from "../../pages/util/util.js";
+// import util from "../../pages/util/util.js";
+
+var util;
 
 Page({
 
@@ -13,6 +15,8 @@ Page({
   },
 
   onLoad:function(){ 
+
+    util = require('../util/util');
 
     this.getData();
 
@@ -52,8 +56,12 @@ Page({
     .then(res=>{
       res.result.data.forEach(item=>{
         let hits= item.hits?item.hits:0
+
+
         item.hits=util.getNumber(hits);
         item._createTime=util.getTime(item._createTime,4)
+
+        
       })
 
       if (res.result.data<=0){
@@ -111,6 +119,12 @@ Page({
    */
   onReachBottom: function () {
     this.getData(this.data.newslist.length);
+  },
+
+  onPullDownRefresh: function () {
+    this.getData();
   }
-  
+
+
+
 })

@@ -41,7 +41,7 @@ to {
   border: blue 0px solid;
   margin: 140rpx auto 80rpx auto;
   border-radius: 20rpx;
-  box-shadow: 0px 5rpx 17rpx #e0e0e0;
+  box-shadow: 0px 5rpx 17rpx rgba(0, 0, 0, 0.2);
   background-color: #fff;
 }
 
@@ -108,11 +108,11 @@ to {
   border: blue 0px solid;
   margin: 24rpx auto;
   border-radius: 20rpx;
-  box-shadow: 0px 5rpx 20rpx #e0e0e0;
+  box-shadow: 0px 5rpx 20rpx rgba(0, 0, 0, 0.2);
 }
 
 .consult_top{
-  height: 62rpx;
+  height: 80rpx;
   background-color: #fff;
   border-radius: 20rpx 20rpx 0px 0px;
 }
@@ -130,6 +130,7 @@ to {
   float: left;
   margin-bottom: 200rpx;
   border-radius: 0px 0px 20rpx 20rpx;
+  box-shadow: 0px 16rpx 20rpx rgba(0, 0, 0, 0.2);
 }
 
 .consult .consult_logo_1{
@@ -184,13 +185,21 @@ to {
 .status{
   display: flex;
   flex-direction: row;
-  margin-top: 10px;
-  padding-bottom: 10px;
-  font-size: 13px;
+  margin-top: 20rpx;
+  padding-bottom: 20rpx;
+  font-size: 26rpx;
 }
 
 .status view{
-  margin-left: 22px;
+  margin-left: 30rpx;
+}
+
+.hits{
+  padding-left: 40rpx;
+}
+
+.Zan{
+  padding-left: 70rpx;
 }
 
 .loading{

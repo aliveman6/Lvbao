@@ -2,10 +2,11 @@ page,view,image,swiper,swiper-item,navigator,video{
   box-sizing: border-box;
 }
 page{
+  background-color: #f3f3f3;
   font-family: KaiTi;
   height: 100%;
   width: 100%;
-  background-image: url(https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/bgc.jpg);
+  /* background-image: url(https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/bgc.jpg); */
   background-size: 100% 100%;
   background-attachment: fixed;
   /* background: -webkit-linear-gradient(bottom,#6BBF42,#31C581,#f3f3f3); */

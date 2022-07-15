@@ -1,3 +1,9 @@
+page{
+    background-image: url(https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/bgc.jpg);
+    background-attachment: fixed;
+  }
+
+
 .main{
     width: 690rpx;
     margin-top: 40rpx;

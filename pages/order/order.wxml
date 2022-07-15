@@ -45,7 +45,7 @@
 
 <!-- 取消订单和完成订单按钮 -->
 <button class="cancel" wx:if="{{currentTab==0}}" bindtap="cancel" data-id="{{item._id}}">取消订单</button>
-<button class="finish" wx:if="{{currentTab==0}}" bindtap="finish" data-id="{{item._id}}">完成订单</button>
+<button class="finish" wx:if="{{currentTab==-3}}" bindtap="finish" data-id="{{item._id}}">完成订单</button>
 
 
 </view>

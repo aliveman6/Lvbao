@@ -1,4 +1,4 @@
-<!--pages/PromotionCode/PromotionCode.wxml-->
+<!-- 页面主体 -->
 <image show-menu-by-longpress="true" src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/MiniProgramCode2.jpg" mode="widthFix"></image>
 <view>长按图片即可保存图片或者转发</view>
 

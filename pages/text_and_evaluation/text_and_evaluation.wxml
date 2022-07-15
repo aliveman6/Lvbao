@@ -1,37 +1,41 @@
 <wxs module="public" src="../../pages/wxs/public.wxs"></wxs>
 
-
+<!-- 页面主体 -->
 <view class="page">
 
+<!-- 骨架屏的引入 -->
 <van-skeleton title row="8" class="skeleton" loading="{{loading}}">
 
+<!-- 文章展示的父盒子 -->
 <scroll-view scroll-y class="page-content" style="height:{{scrollViewHeight}}" scroll-into-view="{{scrollIntoView}}">
 <view class="page-module">
 
+<!-- 文章标题、作者、内容 -->
 <view class="title">{{detail.news_title}}</view>
 <view class="author">作者：{{detail.news_author}}</view>
 <rich-text nodes="{{detail.content}}" class="content"></rich-text>
 </view>
 
+<!-- 文章状态 -->
 <view class="text_status">
 <view class="row">发布时间：{{public.getTime(detail._createTime,1)}}</view>
 <view class="row" wx:if="{{detail.hits}}">阅读量：{{public.getNumber(detail.hits)}}次</view>
 </view>
 
+<!-- 点赞 -->
 <view class="likeAndCollection">
 <view class="recommend {{detail.onlike?'active':''}}" bindtap="clickLike">
     <view class="icon"><van-icon name="good-job" /></view>
     <view class="num">{{detail.ZanSize}}</view>
 </view>
 
-
-
+<!-- 收藏 -->
 <view class="collection {{onCollection?'active':''}}" bindtap="clickCollection" >
-<image src="{{imgUrl}}" mode="widthFix" class="collection_img"></image>
+<image wx:if="{{imgUrl}}" src="{{imgUrl}}" mode="widthFix" class="collection_img"></image>
 </view>
 </view>
 
-
+<!-- 赞过的用户 -->
 <view class="userinfo">
     <view class="text">- 赞过的用户 -</view>
     <view class="picgroup">
@@ -39,10 +43,8 @@
     </view>
 </view>
 
-
-
-
-
+<!-- 评论 -->
+<view class="evaluation_title">评论</view>
 
 <!-- 评论列表 start -->
 <view class="evaluation-wrap" id="evaluation-wrap">

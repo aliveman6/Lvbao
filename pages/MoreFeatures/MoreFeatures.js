@@ -115,6 +115,18 @@ Page({
     handleContact (e) {
       console.log(e.detail.path)
       console.log(e.detail.query)
+},
+
+// 每日金句的按钮点击事件
+NotOpen(){
+  wx.showModal({
+    // title: '提交成功!',
+    content: '该功能正在开发中，敬请期待！',
+    showCancel: false ,   //去掉取消按钮
+    confirmText: '确定',
+    cancelText: '取消',
+    confirmColor: '#09BB07'
+  })
 }
 
 })

@@ -18,31 +18,22 @@
 </view>
 <!-- END -->
 
-<!-- 顶部首页 -->
+<!-- 首页顶部 -->
 <view class="index_top">
 <view class="index_top_bg">
 <image class="index_top_bg_img" src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E9%A6%96%E9%A1%B5%E4%B8%8A.png" mode="widthFix"></image>
 
 <!-- <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E7%81%AF%E6%B3%A1.png" mode="widthFix" class="index_top_bg_img_2"></image> -->
+
 <swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="3000">
-
-          <swiper-item>
-          <view class="swiper_item">有 问 题 请 咨 询：800-882-880</view>
-          </swiper-item>
-          <swiper-item>
-          <view class="swiper_item">正 常 回 收 时 间：8：00~20：00</view>
-          </swiper-item>
-        </swiper>
-
-
-<!-- <view class="index_top_text"></view> -->
+<swiper-item>
+<view class="swiper_item">有 问 题 请 咨 询：800-882-880</view>
+</swiper-item>
+<swiper-item>
+<view class="swiper_item">正 常 回 收 时 间：8：00~20：00</view>
+</swiper-item>
+</swiper>
 </view>
-
-
-
-
-
-
 
 <view class="RotateIcon">
 <image class="roundImg" src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/RotateIcon.png"></image>
@@ -83,14 +74,15 @@
 <view class="title">{{item.news_title}}</view>
 <view class="status">
 <view><van-icon name="clock-o" />{{item._createTime}}</view>
-<view wx:if="{{item.hits}}"><van-icon name="browsing-history-o" />{{item.hits}}</view>
-<view><van-icon name="good-job-o" />{{item.ZanSize}}</view>
+<view wx:if="{{item.hits}}" class="hits"><van-icon name="browsing-history-o" />{{item.hits}}</view>
+<view class="Zan"><van-icon name="good-job-o" />{{item.ZanSize}}</view>
 </view> 
 </navigator>
 </view>
 
+<!-- 下拉触底显示加载中的图标 -->
 <view class="loading">
-    <van-loading color="#1989fa" size="24px" type="{{loading ? 'spinner' : 'none'}}" />
+    <van-loading color="#2FC982" size="24px" type="{{loading ? 'spinner' : 'none'}}" />
     <view wx:if="{{loading}}">加载中...</view>
     <view wx:else="">没有更多了~~~</view>
 </view>

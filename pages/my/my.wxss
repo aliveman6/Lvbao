@@ -20,7 +20,7 @@
 
 .sign view{
   font-size: 28rpx;
-  margin: -44rpx 20rpx 0px 36rpx;
+  margin: -44rpx 0rpx 0px 36rpx;
   color: #6BBF42;
 }
 

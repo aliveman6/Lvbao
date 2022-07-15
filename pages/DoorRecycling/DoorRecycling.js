@@ -31,14 +31,7 @@ handleContact (e) {
   console.log(e.detail.query)
 },
 
-
-
-
-
-
-
-
-
+// 跳转至表单信息填写界面
   DirectNav(){
     wx.navigateTo({
       url: '../form/form',

@@ -4,5 +4,7 @@
     "tabbar": "/components/tabbarComponent/tabbar"
   },
   "navigationBarTitleText": "绿宝",
-  "navigationStyle": "custom"
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#f3f3f3"
 }

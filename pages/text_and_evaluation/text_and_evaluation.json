@@ -2,5 +2,7 @@
   "usingComponents": {
     "textareaFixedBottom": "/components/textarea-fixed-bottom/index"
   },
-  "navigationBarTitleText": "绿宝"
+  "navigationBarTitleText": "绿宝",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#f3f3f3"
 }

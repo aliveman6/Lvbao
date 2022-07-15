@@ -1,10 +1,16 @@
+page{
+  background-image: url(https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/bgc.jpg);
+  background-attachment: fixed;
+}
+
+
 .body{
   margin: 64rpx 40rpx;
 }
 
 .top_title{
   font-size: 50rpx;
-  color: #6BBF42;
+  color: #165203;
   margin: 50rpx 0px 0px 76rpx;
   font-family: KaiTi;
 }
@@ -71,7 +77,6 @@ textarea{
 
 .MoneyOrder{
   width: 600rpx;
-  height: 1100rpx;
   margin: 44rpx auto 50rpx auto;
   padding: 26rpx 28rpx 0px 28rpx;
   background-color: #fff;
@@ -133,4 +138,5 @@ textarea{
   display: flex;
   justify-content: center;
   margin-top: 40rpx;
+  padding-bottom: 70rpx;
 }

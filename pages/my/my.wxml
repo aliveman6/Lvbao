@@ -21,7 +21,7 @@
 
 <!-- 签到按钮 -->
 <navigator url="../Sign/Sign" class="sign" open-type="navigate">
-<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E7%AD%BE%E5%88%B0.png" mode="widthFix" style="width: 50rpx;"></image>
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E7%AD%BE%E5%88%B0.png" mode="widthFix" style="width: 50rpx; padding-right:5px;"></image>
 <view>签到</view>
 </navigator>
 </view>

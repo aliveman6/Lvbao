@@ -5,19 +5,19 @@
 </view>
 <!-- END -->
 
-
+<!-- 回收员登录框 -->
 <view class="main">
-
+<!-- 账号输入框 -->
 <view class="input_1">
 输入账号：
 <input class="input" bindinput="getAccount" />
 </view>
-
+<!-- 密码输入框 -->
 <view class="input_2">
 输入密码：
-<input class="input" bindinput="getPassword" />
+<input type="number" class="input" bindinput="getPassword" />
 </view>
-
-<button bindtap="login" class="btn">登录</button>
+<!-- 登录按钮 -->
+<button type="number" bindtap="login" class="btn">登录</button>
 
 </view>

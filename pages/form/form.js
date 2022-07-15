@@ -1,9 +1,5 @@
 
-
-import util from "../../pages/util/util";
-
-
-
+// import util from "../../pages/util/util";
 const db = wx.cloud.database()
 
 
@@ -22,14 +18,14 @@ Page({
    createTime:''
   },
 
+  // 页面监听时加载的函数
 onLoad: function (options) {
   this.getMoneyOrder();
-
 },
 
 
 getMoneyOrder(){
-  
+  // 引用云函数getMoneyOrder与后台管理系统进行信息交互
   wx.cloud.callFunction({
     name:"getMoneyOrder"
   })
@@ -39,10 +35,9 @@ getMoneyOrder(){
       MoneyOrderList:res.result.data
     })
   })
-
 },
 
-
+// 预估金额时点击“+”的点击事件
 add(e){
   const id = e.currentTarget.dataset.id
   console.log('点击了+',e.currentTarget.dataset.id)
@@ -67,6 +62,7 @@ add(e){
   })
 },
 
+// 预估金额时点击“-”的点击事件
 subtract(e){
   const id = e.currentTarget.dataset.id
   console.log('点击了-',e.currentTarget.dataset.id)
@@ -100,16 +96,10 @@ subtract(e){
   //表单提交按钮
   formSubmit: function(e) {
     const that = this;
-
     let totalMoney = this.data.totalMoney
     let totalWeight = this.data.totalWeight
-
     // let createTime = Date.now();
     // createTime=util.getTime(createTime,4)
-
-
-
-    
    console.log('form发生了submit事件，携带数据为：', e.detail.value)
   //  console.log("createTime",createTime)
    this.setData({
@@ -152,9 +142,6 @@ subtract(e){
      phone:e.detail.value.phone
    })
 
-
-
-
     //获取用户openid
     // let that = this
     // wx.cloud.callFunction({
@@ -166,10 +153,6 @@ subtract(e){
     //     })
     //   }
     // })
-
-
-
-    
 
 
   //  调用名为“add”的云函数添加到CMS后台管理系统的订单表上
@@ -193,10 +176,6 @@ subtract(e){
        console.log('传参数据为',res)
     }
    })
-
-
-
-
   },
 
   //表单重置按钮
@@ -214,7 +193,7 @@ subtract(e){
    })
   },
 
-  //---------------------与选择器相关的方法
+  //与选择器相关的方法
   //地区选择
   bindRegionChange: function (e) {
     console.log('picker发送选择改变，携带值为', e.detail.value)
@@ -237,7 +216,6 @@ subtract(e){
    })
   },
 
-
   // createTime(){
   //       let createTime = Date.now();
   //   wx.getUserProfile({
@@ -250,15 +228,6 @@ subtract(e){
       
   //   })
   // },
-
-
-
-
-
-
-
-
-
 
  })
  

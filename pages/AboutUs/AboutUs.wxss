@@ -1,21 +1,33 @@
+page{
+    background-image: url(https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/bgc.jpg);
+    background-attachment: fixed;
+  }
+
 .main{
     float: left;
-    margin-top: 60rpx;
+    margin-top: 20rpx;
     margin-left: 38%;
 }
 
 .body{
     width: 690rpx;
-    height: 800rpx;
-    margin-top: 120rpx;
+    margin-top: 60rpx;
     margin-left: 4%;
     margin-bottom: 48rpx;
-    padding: 0px 60rpx;
+    padding: 30rpx 30rpx 50rpx 40rpx;
     border-radius: 30rpx;
     background-color: #fff;
     box-shadow: 6rpx 6rpx 10rpx rgba(0, 0, 0, 0.2);
 }
 
 .AboutUs_text{
-    padding-top: 200rpx;
+    padding-top: 160rpx;
+}
+
+.AboutUs_text_2{
+    text-indent: 32px;
+}
+
+.AboutUs_text_3{
+    color: #2CC890;
 }

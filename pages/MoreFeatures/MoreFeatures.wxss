@@ -1,10 +1,15 @@
+page{
+  background-image: url(https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/bgc.jpg);
+  background-attachment: fixed;
+}
+
 
 .container{
   width: 710rpx;
   border: blue 0px solid;
   margin: 50rpx 10rpx 20rpx 20rpx;
   border-radius: 20rpx;
-  box-shadow: 0px 5rpx 17rpx #e0e0e0;
+  box-shadow: 0px 5rpx 17rpx rgba(0, 0, 0, 0.2);
   background-color: #fff;
 }
 .sign{
@@ -64,7 +69,6 @@
 }
 .MoreFeatures_btn_4_text{
   font-size: 26rpx;
-  /* padding-left: 30px; */
   line-height: 26rpx;
   margin: -112rpx 0px 0px 80rpx;
   font-family: KaiTi;
@@ -76,7 +80,7 @@
   display: flex;
   justify-content:space-between;
   border-radius: 20rpx;
-  box-shadow: 2rpx 5rpx 17rpx #e0e0e0;
+  box-shadow: 2rpx 5rpx 17rpx rgba(0, 0, 0, 0.2);
   background-color: #fff;
   margin-bottom: 30%;
 }
@@ -86,7 +90,7 @@
   display: flex;
   justify-content:space-between;
   border-radius: 20rpx;
-  box-shadow: 0px 5rpx 17rpx #e0e0e0;
+  box-shadow: 0px 5rpx 17rpx rgba(0, 0, 0, 0.2);
   background-color: #fff;
   margin-bottom: 30%;
 }
@@ -96,7 +100,7 @@
   display: flex;
   justify-content:space-between;
   border-radius: 20rpx;
-  box-shadow: 0px 5rpx 17rpx #e0e0e0;
+  box-shadow: 0px 5rpx 17rpx rgba(0, 0, 0, 0.2);
   background-color: #fff;
   margin-bottom: 30%;
   margin-right: 50%;
@@ -157,7 +161,9 @@
  .drawer_content_1 {
   height: 160rpx;
   overflow-y: scroll; /*超出父盒子高度可滚动*/
-  margin: 56rpx 10rpx 2rpx 76rpx;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
  }
 
  .drawer_content_2 {
@@ -192,7 +198,7 @@
   float: left;
   margin-top: 120rpx;
   margin-left:254rpx;
-  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.2);
   border-radius: 40rpx;
 }
 .loginBtn::after{

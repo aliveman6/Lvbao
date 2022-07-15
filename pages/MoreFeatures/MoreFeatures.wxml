@@ -19,7 +19,7 @@
 </view>
 <!-- 签到按钮 -->
 <navigator url="../Sign/Sign" class="sign" open-type="navigate">
-<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E7%AD%BE%E5%88%B0.png" mode="widthFix" style="width: 50rpx;"></image>
+<image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E7%AD%BE%E5%88%B0.png" mode="widthFix" style="width: 50rpx; padding-right:5px;"></image>
 <view>签到</view>
 </navigator>
 </view>
@@ -29,7 +29,7 @@
 <!-- 左边两个按钮 -->
 <view class="MoreFeatures_1">
 <!-- 每日金句 -->
-<navigator class="box">
+<navigator class="box" bindtap="NotOpen">
 <view class="MoreFeatures_btn_1">
 <image src="https://636c-cloud1-0gsuywlee1316d01-1309842656.tcb.qcloud.la/image/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%8F%A5.png" class="MoreFeatures_btn_1_img" mode="widthFix"></image>
 <view class="MoreFeatures_btn_1_text">每日金句</view>

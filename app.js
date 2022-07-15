@@ -1,11 +1,9 @@
 
-
 App({
   onLaunch() {
 
     // 隐藏系统tabbar
      wx.hideTabBar();
-
 
     // 展示本地存储能力
     const logs = wx.getStorageSync('logs') || []
